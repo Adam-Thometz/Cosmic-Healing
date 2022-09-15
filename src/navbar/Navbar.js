@@ -1,14 +1,21 @@
-import React from 'react'
+import React from 'react';
+
+import './Navbar.css';
+
+import Button from '../_components/button/Button';
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className='Navbar'>
       <img src='' alt='' />
-      <a href='#aboutMe'>About Me</a>
-      <a href='#services'>Services</a>
-      <a href='#faq'>FAQ</a>
+      <div className='Navbar-links'>
+        <a tabIndex={0} href='#aboutMe'>About Me</a>
+        <a tabIndex={0} href='#services'>Services</a>
+        <a tabIndex={0} href='#faq'>FAQ</a>
+      </div>
+      <Button primary>Book a free session</Button>
     </nav>
   );
 };
 
-export default Navbar
+export default Navbar;

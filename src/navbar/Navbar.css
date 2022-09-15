@@ -1,0 +1,16 @@
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #484444;
+  padding: 8px 32px;
+  height: 64px;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Navbar-links a {
+  color: #F2F2F2;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 12px 8px;
+}
