@@ -1,0 +1,20 @@
+.Button {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+.primary {
+  border-radius: 8px;
+  background-color: #F0A577;
+  color: #000;
+  padding: 8px 16px;
+}
+
+.secondary {
+  padding: 8px 24px;
+  background-color: #000;
+  color: #FFF;
+  border-radius: 4px;
+}
