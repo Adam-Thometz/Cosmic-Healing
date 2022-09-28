@@ -1,8 +1,30 @@
 .Hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 32px auto;
+}
 
+.Hero-text-wrapper {
+  text-align: left;
+  width: 50%;
+  font-size: 18px;
 }
 
 .Hero-text-wrapper h1 {
-  font-size: 48px;
-  font-family: Copernicus;
+  font-size: 72px;
+  font-family: 'Nimbus Roman';
+  font-weight: 400;
+}
+
+.Hero-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.Hero-button-wrapper small {
+  font-family: Nuckle;
+  margin-left: 24px;
 }

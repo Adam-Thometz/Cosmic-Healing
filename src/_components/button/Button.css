@@ -5,9 +5,13 @@
   border: none;
 }
 
+.Button-arrow {
+  margin: 8px 0 8px 8px;
+}
+
 .primary {
   border-radius: 8px;
-  background-color: #F0A577;
+  background-color: #B279F1;
   color: #000;
   padding: 8px 16px;
 }
@@ -17,4 +21,13 @@
   background-color: #000;
   color: #FFF;
   border-radius: 4px;
+}
+
+.tertiary {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0,0,0,0);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 4px 16px;
 }

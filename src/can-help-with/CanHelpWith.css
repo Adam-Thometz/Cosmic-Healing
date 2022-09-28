@@ -1,0 +1,16 @@
+.CanHelpWith {
+  display: flex;
+  align-items: center;
+}
+
+.CanHelpWith-text-wrapper {
+  width: 35%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.CanHelpWith-moving-text {
+  background: -webkit-linear-gradient(45deg, #A3000E, #FBAD7D);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

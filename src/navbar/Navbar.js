@@ -8,11 +8,11 @@ const Navbar = () => {
   return (
     <nav className='Navbar'>
       <img src='' alt='' />
-      <div className='Navbar-links'>
+      <section className='Navbar-links'>
         <a tabIndex={0} href='#aboutMe'>About Me</a>
         <a tabIndex={0} href='#services'>Services</a>
         <a tabIndex={0} href='#faq'>FAQ</a>
-      </div>
+      </section>
       <Button primary>Book a free session</Button>
     </nav>
   );

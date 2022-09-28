@@ -4,6 +4,16 @@
 }
 
 @font-face {
+  font-family: IBM Plex Mono;
+  src: url('./_fonts/IBMPlexMono-Light.ttf');
+}
+
+@font-face {
+  font-family: Nuckle;
+  src: url('./_fonts/Nuckle-ExtraLight.ttf');
+}
+
+@font-face {
   font-family: Proxima Nova;
   src: url('./_fonts/ProximaNova.otf');
 }
