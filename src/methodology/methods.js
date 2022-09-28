@@ -9,7 +9,7 @@ const methods = [
   {
     name: "Dreamwork",
     img: dreamwork,
-    description: "Decode symbols within your  dreams to uncover subconscious messages"
+    description: "Decode symbols within your dreams to uncover subconscious messages"
   },
   {
     name: "Shadow Work",
