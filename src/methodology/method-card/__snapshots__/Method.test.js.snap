@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Method component matches the snapshot 1`] = `
+<DocumentFragment>
+  <figure
+    class="Method"
+  >
+    <img
+      alt="Dreamwork"
+      src="dreamwork.png"
+    />
+    <figcaption>
+      <h3>
+        Dreamwork
+      </h3>
+      <p>
+        Decode symbols within your  dreams to uncover subconscious messages
+      </p>
+    </figcaption>
+  </figure>
+</DocumentFragment>
+`;
