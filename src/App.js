@@ -2,6 +2,7 @@ import './App.css';
 import CanHelpWith from './can-help-with/CanHelpWith';
 import Hero from './hero/Hero';
 import MeetProfessional from './meet-professional/MeetProfessional';
+import Methodology from './methodology/Methodology';
 import Navbar from './navbar/Navbar';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <main>
         <MeetProfessional />
         <CanHelpWith />
+        <Methodology />
       </main>
     </div>
   );
