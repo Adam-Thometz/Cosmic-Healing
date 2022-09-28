@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmallCaption component matches the snapshot 1`] = `
+<DocumentFragment>
+  <small
+    class="SmallCaption"
+  />
+</DocumentFragment>
+`;
