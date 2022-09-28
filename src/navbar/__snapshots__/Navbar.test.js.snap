@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component matches the snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="Navbar"
+  >
+    <img
+      alt=""
+      src=""
+    />
+    <section
+      class="Navbar-links"
+    >
+      <a
+        href="#aboutMe"
+        tabindex="0"
+      >
+        About Me
+      </a>
+      <a
+        href="#services"
+        tabindex="0"
+      >
+        Services
+      </a>
+      <a
+        href="#faq"
+        tabindex="0"
+      >
+        FAQ
+      </a>
+    </section>
+    <button
+      class="Button primary"
+    >
+      Book a free session
+    </button>
+  </nav>
+</DocumentFragment>
+`;
