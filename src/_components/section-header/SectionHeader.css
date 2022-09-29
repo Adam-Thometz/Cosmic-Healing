@@ -1,5 +1,13 @@
 .SectionHeader {
   font-family: 'Nimbus Roman';
-  font-size: 36px;
   margin: 16px 0;
+}
+
+.SectionHeader h2 {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.SectionHeader h3 {
+  font-size: 24px;
 }
