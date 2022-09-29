@@ -1,0 +1,25 @@
+.Footer {
+  background-image: 
+    url(../_media/backgrounds/black-lines.png),
+    url(../_media/backgrounds/black.png);
+  background-size: 100% 100%, 100% 100%;
+  background-repeat: no-repeat;
+  height: 330px;
+  display: flex;
+}
+
+.Footer-menu {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 50%;
+  margin: 48px;
+  justify-content: top;
+}
+
+.Footer a {
+  text-decoration: none;
+  color: white;
+  font-family: Nuckle;
+  margin: 8px 0;
+}

@@ -1,6 +1,7 @@
 import Affiliates from './affiliates/Affiliates';
 import './App.css';
 import CanHelpWith from './can-help-with/CanHelpWith';
+import Footer from './footer/Footer';
 import Hero from './hero/Hero';
 import HowItWorks from './how-it-works/HowItWorks';
 import MeetProfessional from './meet-professional/MeetProfessional';
@@ -21,6 +22,7 @@ function App() {
         <HowItWorks />
         <Affiliates />
       </main>
+      <Footer />
     </div>
   );
 };
