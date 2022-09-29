@@ -13,10 +13,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   width: 70%;
 }
 
 .Affiliates-icon {
   padding: 5%;
-  width: 20%;
+  width: 16%;
 }
