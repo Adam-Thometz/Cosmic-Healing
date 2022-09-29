@@ -4,6 +4,7 @@ import Hero from './hero/Hero';
 import MeetProfessional from './meet-professional/MeetProfessional';
 import Methodology from './methodology/Methodology';
 import Navbar from './navbar/Navbar';
+import Services from './services/Services';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <MeetProfessional />
         <CanHelpWith />
         <Methodology />
+        <Services />
       </main>
     </div>
   );

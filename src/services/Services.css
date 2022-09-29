@@ -1,0 +1,18 @@
+.Services {
+  background-image: 
+    url(../_media/backgrounds/orange-lines.png),
+    url(../_media/backgrounds/orange.png);
+  background-size: 90% 100%, 100% 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+
+.Services-options {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
