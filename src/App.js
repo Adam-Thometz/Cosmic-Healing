@@ -1,6 +1,7 @@
 import './App.css';
 import CanHelpWith from './can-help-with/CanHelpWith';
 import Hero from './hero/Hero';
+import HowItWorks from './how-it-works/HowItWorks';
 import MeetProfessional from './meet-professional/MeetProfessional';
 import Methodology from './methodology/Methodology';
 import Navbar from './navbar/Navbar';
@@ -16,6 +17,7 @@ function App() {
         <CanHelpWith />
         <Methodology />
         <Services />
+        <HowItWorks />
       </main>
     </div>
   );
