@@ -4,6 +4,14 @@
   align-items: center;
 }
 
+.MeetProfessional-img-wrapper {
+  width: 40%;
+}
+
+.MeetProfessional-img-wrapper img {
+  width: 100%;
+}
+
 .MeetProfessional-text-wrapper {
   width: 35%;
   margin: 0 auto;

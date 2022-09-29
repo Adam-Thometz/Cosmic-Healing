@@ -5,6 +5,14 @@
   margin: 32px auto;
 }
 
+.Hero-img-wrapper {
+  width: 30%;
+}
+
+.Hero-img-wrapper img {
+  width: 100%;
+}
+
 .Hero-text-wrapper {
   text-align: left;
   width: 50%;

@@ -3,6 +3,14 @@
   align-items: center;
 }
 
+.CanHelpWith-img-wrapper {
+  width: 40%;
+}
+
+.CanHelpWith-img-wrapper img {
+  width: 100%;
+}
+
 .CanHelpWith-text-wrapper {
   width: 35%;
   margin: 0 auto;
