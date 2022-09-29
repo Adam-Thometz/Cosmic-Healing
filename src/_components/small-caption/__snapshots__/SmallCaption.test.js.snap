@@ -4,6 +4,7 @@ exports[`SmallCaption component matches the snapshot 1`] = `
 <DocumentFragment>
   <small
     class="SmallCaption"
+    style="color: black;"
   />
 </DocumentFragment>
 `;

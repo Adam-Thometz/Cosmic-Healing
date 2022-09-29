@@ -10,6 +10,7 @@ exports[`Affiliates component matches the snapshot 1`] = `
     >
       <small
         class="SmallCaption"
+        style="color: black;"
       >
         PROUD TO BE WORKING IN PARTNERSHIP WITH..
       </small>

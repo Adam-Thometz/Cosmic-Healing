@@ -18,6 +18,7 @@ exports[`CanHelpWith component matches the snapshot 1`] = `
     >
       <small
         class="SmallCaption"
+        style="color: black;"
       >
         UNDERSTAND YOURSELF AND YOUR PURPOSE
       </small>

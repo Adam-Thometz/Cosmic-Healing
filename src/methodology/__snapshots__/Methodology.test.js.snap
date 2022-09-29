@@ -7,6 +7,7 @@ exports[`Methodology component matches the snapshot 1`] = `
   >
     <small
       class="SmallCaption"
+      style="color: black;"
     >
       HOW I CAN HELP..
     </small>

@@ -18,6 +18,7 @@ exports[`MeetProfessional component matches the snapshot 1`] = `
     >
       <small
         class="SmallCaption"
+        style="color: black;"
       >
         MEET THE LICENSED PROFESSIONAL
       </small>
