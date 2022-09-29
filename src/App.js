@@ -1,3 +1,4 @@
+import Affiliates from './affiliates/Affiliates';
 import './App.css';
 import CanHelpWith from './can-help-with/CanHelpWith';
 import Hero from './hero/Hero';
@@ -18,6 +19,7 @@ function App() {
         <Methodology />
         <Services />
         <HowItWorks />
+        <Affiliates />
       </main>
     </div>
   );

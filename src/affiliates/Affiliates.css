@@ -1,0 +1,22 @@
+.Affiliates {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.Affiliates-text {
+  width: 30%;
+  text-align: left;
+}
+
+.Affiliates-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+}
+
+.Affiliates-icon {
+  padding: 5%;
+  width: 20%;
+}

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Affiliates component matches the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="Affiliates"
+  >
+    <aside
+      class="Affiliates-text"
+    >
+      <small
+        class="SmallCaption"
+      >
+        PROUD TO BE WORKING IN PARTNERSHIP WITH..
+      </small>
+    </aside>
+    <aside
+      class="Affiliates-icons"
+    >
+      <img
+        alt="Inclusive Therapists"
+        class="Affiliates-icon"
+        src="inclusive-therapists.png"
+      />
+      <img
+        alt="Eastern Group Psychotherapy Society"
+        class="Affiliates-icon"
+        src="egps.png"
+      />
+      <img
+        alt="National Queer and Trans Therapists of Color Network"
+        class="Affiliates-icon"
+        src="nqttcn.png"
+      />
+      <img
+        alt="Manhattan Alternative"
+        class="Affiliates-icon"
+        src="manhattan-alternative.png"
+      />
+      <img
+        alt="Alma"
+        class="Affiliates-icon"
+        src="alma.png"
+      />
+      <img
+        alt="Therapy for Black Girls"
+        class="Affiliates-icon"
+        src="therapy-for-black-girls.png"
+      />
+    </aside>
+  </section>
+</DocumentFragment>
+`;
