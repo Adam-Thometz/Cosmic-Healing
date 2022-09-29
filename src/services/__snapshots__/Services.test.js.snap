@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Services component matches the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="Services"
+  >
+    <div
+      class="Services-header"
+    >
+      <small
+        class="SmallCaption"
+      >
+        DO WHAT IS BEST FOR YOU
+      </small>
+      <h2
+        class="SectionHeader"
+      >
+        Choose your ideal environment
+      </h2>
+    </div>
+    <div
+      class="Services-options"
+    >
+      <div
+        class="ServiceCard"
+      >
+        <h3
+          class="SectionHeader"
+        >
+          Individual Quest
+        </h3>
+        <article
+          class="ServiceCard-description"
+        >
+          Solo quest description. Variants introduce a new way to group and organize variants of the same component. This makes components easier to maintain and more intuitive.
+        </article>
+        <button
+          class="Button tertiary"
+        >
+          Learn more
+          <img
+            alt=""
+            class="Button-arrow"
+            src="arrow.png"
+          />
+        </button>
+      </div>
+      <div
+        class="ServiceCard"
+      >
+        <h3
+          class="SectionHeader"
+        >
+          Group Sessions
+        </h3>
+        <article
+          class="ServiceCard-description"
+        >
+          Group sessions description Variants introduce a new way to group and organize variants of the same component. This makes components easier to maintain and more intuitive.
+        </article>
+        <button
+          class="Button tertiary"
+        >
+          Learn more
+          <img
+            alt=""
+            class="Button-arrow"
+            src="arrow.png"
+          />
+        </button>
+      </div>
+      <div
+        class="ServiceCard"
+      >
+        <h3
+          class="SectionHeader"
+        >
+          Facts and Questions
+        </h3>
+        <article
+          class="ServiceCard-description"
+        >
+          FAQ description Variants introduce a new way to group and organize variants of the same component. This makes components easier to maintain and more intuitive.
+        </article>
+        <button
+          class="Button tertiary"
+        >
+          Learn more
+          <img
+            alt=""
+            class="Button-arrow"
+            src="arrow.png"
+          />
+        </button>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

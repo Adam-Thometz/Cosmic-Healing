@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HowItWorks component matches the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="HowItWorks"
+  >
+    <aside
+      class="HowItWorks-text-wrapper"
+    >
+      <small
+        class="SmallCaption"
+      >
+        HOW IT WORKS..
+      </small>
+      <h2
+        class="SectionHeader"
+      >
+        Start in three easy steps
+      </h2>
+      <ol>
+        <li>
+          <h3
+            class="SectionHeader"
+          >
+            Motivational Interviewing
+          </h3>
+          <p>
+            Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+          </p>
+        </li>
+        <li>
+          <h3
+            class="SectionHeader"
+          >
+            Motivational Interviewing
+          </h3>
+          <p>
+            Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+          </p>
+        </li>
+        <li>
+          <h3
+            class="SectionHeader"
+          >
+            Motivational Interviewing
+          </h3>
+          <p>
+            Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+          </p>
+        </li>
+      </ol>
+      <button
+        class="Button primary"
+      >
+        Get started
+      </button>
+    </aside>
+    <aside
+      class="HowItWorks-img-wrapper"
+    >
+      <img
+        alt=""
+        src="paper-plane.png"
+      />
+    </aside>
+  </section>
+</DocumentFragment>
+`;
