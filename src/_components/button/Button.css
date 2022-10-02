@@ -12,8 +12,9 @@
 .primary {
   border-radius: 8px;
   background-color: #B279F1;
-  color: #000;
+  color: #FFFFFF;
   padding: 8px 16px;
+  box-shadow: 0px 4px 35px 0px #782DCA26;
 }
 
 .secondary {
