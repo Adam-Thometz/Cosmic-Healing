@@ -1,0 +1,40 @@
+.MeetProfessional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.MeetProfessional-img-wrapper {
+  width: 40%;
+}
+
+.MeetProfessional-img-wrapper img {
+  width: 100%;
+}
+
+.MeetProfessional-text-wrapper {
+  width: 40%;
+  padding: 5%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.MeetProfessional-text-wrapper article {
+  font-family: Nuckle;
+  line-height: 27px;
+}
+
+.MeetProfessional button {
+  margin: 32px 0;
+}
+
+@media (max-width: 600px) {
+  .MeetProfessional {
+    flex-direction: column;
+  }
+
+  .MeetProfessional-text-wrapper {
+    width: 80%;
+  }
+}

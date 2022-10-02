@@ -1,0 +1,19 @@
+.HowItWorks {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.HowItWorks-text-wrapper {
+  text-align: left;
+  padding: 0 7%;
+  width: 30%;
+}
+
+.HowItWorks-img-wrapper {
+  width: 50%;
+}
+
+.HowItWorks-img-wrapper img {
+  width: 100%;
+}

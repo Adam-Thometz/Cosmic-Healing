@@ -1,0 +1,45 @@
+.Hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5% 0;
+}
+
+.Hero-img-wrapper {
+  width: 30%;
+}
+
+.Hero-img-wrapper img {
+  width: 100%;
+}
+
+.Hero-text-wrapper {
+  text-align: left;
+  width: 50%;
+}
+
+.Hero-text-wrapper p {
+  font-size: 18px;
+  font-family: Nuckle;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 1px;
+}
+
+.Hero-text-wrapper h1 {
+  font-size: 72px;
+  font-family: 'Nimbus Roman';
+  font-weight: 400;
+  line-height: 81px;
+}
+
+.Hero-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Hero-button-wrapper small {
+  font-family: Nuckle;
+  margin-left: 24px;
+}

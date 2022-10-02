@@ -4,7 +4,7 @@
     url(../_media/backgrounds/black.png);
   background-size: 100% 100%, 100% 100%;
   background-repeat: no-repeat;
-  height: 330px;
+  height: 20%;
   display: flex;
 }
 
@@ -13,7 +13,7 @@
   flex-direction: column;
   text-align: left;
   height: 50%;
-  margin: 48px;
+  margin: 3%;
   justify-content: top;
 }
 
@@ -21,5 +21,6 @@
   text-decoration: none;
   color: white;
   font-family: Nuckle;
+  font-weight: 600;
   margin: 8px 0;
 }

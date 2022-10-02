@@ -1,0 +1,12 @@
+.Methodology {
+  margin: 5% 0;
+}
+
+.Methodology-methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: top;
+  width: 90%;
+  margin: 0 auto;
+}

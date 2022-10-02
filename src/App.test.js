@@ -1,7 +1,7 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import App from './App';
+import renderWithBrowser from './_test/renderWithBrowser';
 
 test('renders App', () => {
-  render(<App />);
+  renderWithBrowser(<App />);
 });

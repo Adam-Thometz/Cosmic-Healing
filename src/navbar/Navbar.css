@@ -1,7 +1,4 @@
 .Navbar {
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
   padding: 8px 32px;
   height: 64px;
   position: relative;
@@ -16,6 +13,9 @@
 .Navbar-links a {
   color: #333333;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
+  font-family: Nuckle;
+  font-weight: 700;
   padding: 12px 8px;
+  line-height: 16px;
 }

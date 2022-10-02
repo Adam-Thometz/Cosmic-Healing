@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CanHelpWith component matches the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="CanHelpWith"
+  >
+    <aside
+      class="CanHelpWith-img-wrapper"
+    >
+      <img
+        alt=""
+        src="hand.png"
+      />
+    </aside>
+    <aside
+      class="CanHelpWith-text-wrapper"
+    >
+      <small
+        class="SmallCaption"
+        style="color: black;"
+      >
+        UNDERSTAND YOURSELF AND YOUR PURPOSE
+      </small>
+      <h2
+        class="SectionHeader"
+      >
+        Learn how to 
+        <span
+          class="CanHelpWith-moving-text"
+        >
+          improve emotional intelligence
+        </span>
+      </h2>
+    </aside>
+  </section>
+</DocumentFragment>
+`;
