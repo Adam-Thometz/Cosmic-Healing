@@ -13,7 +13,7 @@ exports[`ServiceCard component matches the snapshot 1`] = `
     <article
       class="ServiceCard-description"
     >
-      Solo quest description. Variants introduce a new way to group and organize variants of the same component. This makes components easier to maintain and more intuitive.
+      Solo journey.
     </article>
     <button
       class="Button tertiary"

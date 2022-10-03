@@ -9,9 +9,9 @@ const Navbar = () => {
     <nav className='Navbar'>
       <img src='' alt='' />
       <section className='Navbar-links'>
+        <a tabIndex={0} href='#'>Home</a>
         <a tabIndex={0} href='#aboutMe'>About Me</a>
         <a tabIndex={0} href='#services'>Services</a>
-        <a tabIndex={0} href='#faq'>FAQ</a>
       </section>
       <Button primary>Book a free session</Button>
     </nav>

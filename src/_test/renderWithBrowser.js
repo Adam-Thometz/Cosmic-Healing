@@ -6,7 +6,7 @@ function withProvider({ children, initialRoutes }) {
     <MemoryRouter initialEntries={initialRoutes}>
       {children}
     </MemoryRouter>
-)
+  );
 };
 
 function renderWithBrowser(component, options) {

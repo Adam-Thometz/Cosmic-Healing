@@ -15,7 +15,7 @@
 
 .Hero-text-wrapper {
   text-align: left;
-  width: 50%;
+  width: 43%;
 }
 
 .Hero-text-wrapper p {
@@ -37,6 +37,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.Hero-button-wrapper button {
+  width: 30%;
 }
 
 .Hero-button-wrapper small {

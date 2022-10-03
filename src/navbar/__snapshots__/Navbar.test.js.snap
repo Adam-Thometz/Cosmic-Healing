@@ -13,6 +13,12 @@ exports[`Navbar component matches the snapshot 1`] = `
       class="Navbar-links"
     >
       <a
+        href="#"
+        tabindex="0"
+      >
+        Home
+      </a>
+      <a
         href="#aboutMe"
         tabindex="0"
       >
@@ -23,12 +29,6 @@ exports[`Navbar component matches the snapshot 1`] = `
         tabindex="0"
       >
         Services
-      </a>
-      <a
-        href="#faq"
-        tabindex="0"
-      >
-        FAQ
       </a>
     </section>
     <button

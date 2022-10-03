@@ -16,3 +16,12 @@
 .ServiceCard button {
   width: 66%;
 }
+
+@media (max-width: 900px) {
+  .ServiceCard {
+    flex-direction: column;
+    height: 40%;
+    width: 90%;
+    margin: 0 auto;
+  }
+}

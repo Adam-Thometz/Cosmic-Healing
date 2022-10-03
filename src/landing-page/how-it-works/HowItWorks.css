@@ -7,7 +7,7 @@
 .HowItWorks-text-wrapper {
   text-align: left;
   padding: 0 7%;
-  width: 30%;
+  width: 50%;
 }
 
 .HowItWorks-img-wrapper {
@@ -16,4 +16,10 @@
 
 .HowItWorks-img-wrapper img {
   width: 100%;
+}
+
+@media (max-width: 600px) {
+  .HowItWorks {
+    flex-direction: column-reverse;
+  }
 }
