@@ -14,10 +14,17 @@
 }
 
 .MeetProfessional-text-wrapper {
-  width: 40%;
+  width: 30%;
   padding: 5%;
   margin: 0 auto;
   text-align: left;
+  position: relative;
+}
+
+.MeetProfessional-stars {
+  position: absolute;
+  right: 0;
+  top: 15%;
 }
 
 .MeetProfessional-text-wrapper article {
