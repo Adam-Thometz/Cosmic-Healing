@@ -1,8 +1,8 @@
 .Affiliates {
   display: flex;
   align-items: top;
-  /* width: 85%; */
   margin: 10% 5%;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .Affiliates-text {

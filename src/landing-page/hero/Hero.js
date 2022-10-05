@@ -6,9 +6,9 @@ import Button from '../../_components/button/Button';
 
 import miriam from '../../_media/miriam.png';
 
-const Hero = () => {
+const Hero = ({ style }) => {
   return (
-    <header className='Hero'>
+    <header className='Hero' style={style}>
       <section className='Hero-text-wrapper'>
         <h1>Break the cycle, become a better you</h1>
         <p>Start your journey today to be on your path to become the person you were always designed to be.</p>

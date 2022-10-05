@@ -6,9 +6,9 @@ import SmallCaption from '../../_components/small-caption/SmallCaption';
 
 import affiliates from './affiliateInfo';
 
-const Affiliates = () => {
+const Affiliates = ({ style }) => {
   return (
-    <section className='Affiliates'>
+    <section className='Affiliates' style={style}>
       <aside className='Affiliates-text'>
         <SmallCaption text="PROUD TO BE WORKING IN PARTNERSHIP WITH.." />
       </aside>

@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: top;
   margin: 5% 0;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .ServiceInfo-header {

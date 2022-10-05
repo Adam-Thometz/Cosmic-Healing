@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 5% 0;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .MeetProfessional-img-wrapper {

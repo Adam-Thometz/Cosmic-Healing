@@ -11,7 +11,7 @@ import Footer from './footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar style={{ "--i": 0 }} />
       <Routes>
         <Route index exact element={<LandingPage />} />
         <Route path="/services" element={<Services />} />

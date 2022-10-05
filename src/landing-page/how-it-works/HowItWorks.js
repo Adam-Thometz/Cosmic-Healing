@@ -8,9 +8,9 @@ import SmallCaption from '../../_components/small-caption/SmallCaption';
 
 import paperPlane from '../../_media/paper-plane.png';
 
-const HowItWorks = () => {
+const HowItWorks = ({ style }) => {
   return (
-    <section className='HowItWorks'>
+    <section className='HowItWorks' style={style}>
       <aside className='HowItWorks-text-wrapper'>
         <SmallCaption text="HOW IT WORKS.." />
         <SectionHeader text="Start in three easy steps" />

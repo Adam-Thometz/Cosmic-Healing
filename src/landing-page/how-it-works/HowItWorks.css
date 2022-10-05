@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin: 5% 0;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .HowItWorks-text-wrapper {

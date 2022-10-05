@@ -8,9 +8,9 @@ import ServiceCard from './service-card/ServiceCard';
 
 import options from './serviceOptions';
 
-const ServiceInfo = () => {
+const ServiceInfo = ({ style }) => {
   return (
-    <section className='ServiceInfo'>
+    <section className='ServiceInfo' style={style}>
       <div className='ServiceInfo-header'>
         <SmallCaption text="DO WHAT IS BEST FOR YOU" />
         <SectionHeader text="Choose your ideal environment" />

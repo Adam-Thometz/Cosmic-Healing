@@ -13,13 +13,13 @@ import Affiliates from './affiliates/Affiliates';
 const LandingPage = () => {
   return (
     <main className='LandingPage'>
-      <Hero />
-      <MeetProfessional />
-      <CanHelpWith />
-      <Methodology />
-      <ServiceInfo />
-      <HowItWorks />
-      <Affiliates />
+      <Hero style={{ "--i": 1 }} />
+      <MeetProfessional style={{ "--i": 2 }} />
+      <CanHelpWith style={{ "--i": 3 }} />
+      <Methodology style={{ "--i": 4 }} />
+      <ServiceInfo style={{ "--i": 5 }} />
+      <HowItWorks style={{ "--i": 6 }} />
+      <Affiliates style={{ "--i": 7 }} />
     </main>
   );
 };

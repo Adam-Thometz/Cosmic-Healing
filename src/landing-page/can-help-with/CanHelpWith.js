@@ -7,11 +7,11 @@ import SectionHeader from '../../_components/section-header/SectionHeader';
 
 import hand from '../../_media/hand.png';
 
-const CanHelpWith = () => {
+const CanHelpWith = ({ style }) => {
   const headerText = <>Learn how to <span className='CanHelpWith-moving-text'>improve emotional intelligence</span></>
 
   return (
-    <section className='CanHelpWith'>
+    <section className='CanHelpWith' style={style}>
       <aside className='CanHelpWith-img-wrapper'>
         <img src={hand} alt='' />
       </aside>

@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 0 0 5% 0;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .Hero-img-wrapper {

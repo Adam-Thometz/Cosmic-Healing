@@ -5,10 +5,10 @@ import './Navbar.css';
 
 import Button from '../_components/button/Button';
 
-const Navbar = () => {
+const Navbar = ({ style }) => {
   const active = ({ isActive }) => isActive ? 'active' : '';
   return (
-    <nav className='Navbar'>
+    <nav className='Navbar' style={style}>
       <img src='' alt='' />
       <section className='Navbar-links'>
         <NavLink to='/' className={active} end>Home</NavLink>

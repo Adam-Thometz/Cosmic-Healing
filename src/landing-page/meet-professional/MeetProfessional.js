@@ -9,9 +9,9 @@ import SectionHeader from '../../_components/section-header/SectionHeader';
 import miriam from '../../_media/miriam2.png';
 import stars from '../../_media/stars.png';
 
-const MeetProfessional = () => {
+const MeetProfessional = ({ style }) => {
   return (
-    <section className='MeetProfessional'>
+    <section className='MeetProfessional' style={style}>
       <aside className='MeetProfessional-img-wrapper'>
         <img src={miriam} alt='' />
       </aside>

@@ -1,3 +1,8 @@
+:root {
+  --duration: 1s;
+  --delay: 0.3s;
+}
+
 @font-face {
   font-family: Copernicus;
   src: url('./_fonts/GalaxieCopernicus-Book.ttf');
@@ -16,6 +21,17 @@
 @font-face {
   font-family: Proxima Nova;
   src: url('./_fonts/ProximaNova.otf');
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 body {
