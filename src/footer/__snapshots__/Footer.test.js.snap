@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component matches the snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="Footer"
+  >
+    <section
+      class="Footer-menu"
+    >
+      <small
+        class="SmallCaption"
+        style="color: rgb(251, 173, 125);"
+      >
+        COSMIC HEALING
+      </small>
+      <a
+        href="#"
+      >
+        Home
+      </a>
+      <a
+        href="#"
+      >
+        About Me
+      </a>
+      <a
+        href="#"
+      >
+        Services
+      </a>
+      <a
+        href="#"
+      >
+        FAQ
+      </a>
+    </section>
+    <section
+      class="Footer-menu"
+    >
+      <small
+        class="SmallCaption"
+        style="color: rgb(251, 173, 125);"
+      >
+        COMMUNITY
+      </small>
+      <a
+        href="#"
+      >
+        Webinars
+      </a>
+      <a
+        href="#"
+      >
+        Resources
+      </a>
+      <a
+        href="#"
+      >
+        Partnership
+      </a>
+    </section>
+    <section
+      class="Footer-menu"
+    >
+      <small
+        class="SmallCaption"
+        style="color: rgb(251, 173, 125);"
+      >
+        COMPANY
+      </small>
+      <a
+        href="#"
+      >
+        Blog
+      </a>
+      <a
+        href="#"
+      >
+        Careers
+      </a>
+      <a
+        href="#"
+      >
+        Contact us
+      </a>
+    </section>
+  </footer>
+</DocumentFragment>
+`;
