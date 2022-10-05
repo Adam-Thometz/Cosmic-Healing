@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ component matches the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="FAQ"
+  >
+    <small
+      class="SmallCaption"
+      style="color: black;"
+    >
+      FAQ
+    </small>
+    <h2
+      class="SectionHeader"
+    >
+      Frequently Asked Questions
+    </h2>
+    <details
+      class="Question"
+    >
+      <summary
+        class="Question-question-wrapper"
+      >
+        <span
+          class="Question-question"
+        >
+          <h3
+            class="SectionHeader"
+          >
+            How much does a session cost?
+          </h3>
+        </span>
+      </summary>
+      <p
+        class="Question-answer"
+      >
+        Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+      </p>
+    </details>
+    <details
+      class="Question"
+    >
+      <summary
+        class="Question-question-wrapper"
+      >
+        <span
+          class="Question-question"
+        >
+          <h3
+            class="SectionHeader"
+          >
+            Where are sessions held?
+          </h3>
+        </span>
+      </summary>
+      <p
+        class="Question-answer"
+      >
+        Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+      </p>
+    </details>
+    <details
+      class="Question"
+    >
+      <summary
+        class="Question-question-wrapper"
+      >
+        <span
+          class="Question-question"
+        >
+          <h3
+            class="SectionHeader"
+          >
+            What is your deposit policy?
+          </h3>
+        </span>
+      </summary>
+      <p
+        class="Question-answer"
+      >
+        Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+      </p>
+    </details>
+    <details
+      class="Question"
+    >
+      <summary
+        class="Question-question-wrapper"
+      >
+        <span
+          class="Question-question"
+        >
+          <h3
+            class="SectionHeader"
+          >
+            What insurance do you accept?
+          </h3>
+        </span>
+      </summary>
+      <p
+        class="Question-answer"
+      >
+        Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+      </p>
+    </details>
+  </section>
+</DocumentFragment>
+`;

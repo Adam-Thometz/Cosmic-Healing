@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Question component matches the snapshot 1`] = `
+<DocumentFragment>
+  <details
+    class="Question"
+  >
+    <summary
+      class="Question-question-wrapper"
+    >
+      <span
+        class="Question-question"
+      >
+        <h3
+          class="SectionHeader"
+        >
+          What did the irritated test say?
+        </h3>
+      </span>
+    </summary>
+    <p
+      class="Question-answer"
+    >
+      Don't test me
+    </p>
+  </details>
+</DocumentFragment>
+`;

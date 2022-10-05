@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Services component matches the snapshot 1`] = `
+<DocumentFragment>
+  <main
+    class="Services"
+  >
+    <small
+      class="SmallCaption"
+      style="color: black;"
+    >
+      DO WHAT IS BEST FOR YOU
+    </small>
+    <h2
+      class="SectionHeader"
+    >
+      Choose your ideal environment
+    </h2>
+    <section
+      class="ServiceDescription"
+    >
+      <img
+        alt=""
+        src="astronaut-single.png"
+      />
+      <aside
+        class="ServiceDescription-description"
+      >
+        <h3
+          class="SectionHeader"
+        >
+          Individual sessions
+        </h3>
+        <article>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </article>
+        <button
+          class="Button primary"
+        >
+          Book a free session
+        </button>
+      </aside>
+    </section>
+    <section
+      class="ServiceDescription reverse"
+    >
+      <img
+        alt=""
+        src="astronaut-group.png"
+      />
+      <aside
+        class="ServiceDescription-description"
+      >
+        <h3
+          class="SectionHeader"
+        >
+          Group sessions
+        </h3>
+        <article>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </article>
+        <button
+          class="Button primary"
+        >
+          Book a free session
+        </button>
+      </aside>
+    </section>
+    <section
+      class="FAQ"
+    >
+      <small
+        class="SmallCaption"
+        style="color: black;"
+      >
+        FAQ
+      </small>
+      <h2
+        class="SectionHeader"
+      >
+        Frequently Asked Questions
+      </h2>
+      <details
+        class="Question"
+      >
+        <summary
+          class="Question-question-wrapper"
+        >
+          <span
+            class="Question-question"
+          >
+            <h3
+              class="SectionHeader"
+            >
+              How much does a session cost?
+            </h3>
+          </span>
+        </summary>
+        <p
+          class="Question-answer"
+        >
+          Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+        </p>
+      </details>
+      <details
+        class="Question"
+      >
+        <summary
+          class="Question-question-wrapper"
+        >
+          <span
+            class="Question-question"
+          >
+            <h3
+              class="SectionHeader"
+            >
+              Where are sessions held?
+            </h3>
+          </span>
+        </summary>
+        <p
+          class="Question-answer"
+        >
+          Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+        </p>
+      </details>
+      <details
+        class="Question"
+      >
+        <summary
+          class="Question-question-wrapper"
+        >
+          <span
+            class="Question-question"
+          >
+            <h3
+              class="SectionHeader"
+            >
+              What is your deposit policy?
+            </h3>
+          </span>
+        </summary>
+        <p
+          class="Question-answer"
+        >
+          Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+        </p>
+      </details>
+      <details
+        class="Question"
+      >
+        <summary
+          class="Question-question-wrapper"
+        >
+          <span
+            class="Question-question"
+          >
+            <h3
+              class="SectionHeader"
+            >
+              What insurance do you accept?
+            </h3>
+          </span>
+        </summary>
+        <p
+          class="Question-answer"
+        >
+          Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+        </p>
+      </details>
+    </section>
+  </main>
+</DocumentFragment>
+`;
