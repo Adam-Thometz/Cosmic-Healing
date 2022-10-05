@@ -16,3 +16,26 @@
 .ServiceDescription-description article {
   margin-bottom: 40px;
 }
+
+@media (max-width: 900px) {
+  .ServiceDescription-description {
+    width: 50%;
+  }
+
+  .ServiceDescription img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .ServiceDescription, .reverse {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .ServiceDescription-description {
+    width: 90%;
+  }
+}
