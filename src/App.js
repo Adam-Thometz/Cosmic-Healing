@@ -5,6 +5,7 @@ import './App.css';
 
 import Navbar from "./navbar/Navbar";
 import LandingPage from "./landing-page/LandingPage";
+import Services from "./services/Services";
 import Footer from './footer/Footer';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route index element={<LandingPage />} />
+        <Route index exact element={<LandingPage />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
       <Footer />
     </div>
