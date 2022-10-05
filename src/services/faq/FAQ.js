@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './FAQ.css';
+
 import SectionHeader from '../../_components/section-header/SectionHeader';
 import SmallCaption from '../../_components/small-caption/SmallCaption';
 import Question from './question/Question';
