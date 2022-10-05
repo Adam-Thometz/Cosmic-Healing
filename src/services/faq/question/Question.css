@@ -35,3 +35,21 @@
 .Question-answer {
   width: 75%;
 }
+
+@media (max-width: 500px) {
+  .Question {
+    width: 90%;
+  }
+  .Question > .Question-question-wrapper {
+    position: static;
+    text-align: left;
+  }
+  
+  .Question-question {
+    position: static;
+  }
+
+  .Question-answer {
+    width: 90%;
+  }
+}
