@@ -1,0 +1,18 @@
+.ServiceDescription {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5% 3%;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.ServiceDescription-description {
+  width: 30%;
+  text-align: left;
+}
+
+.ServiceDescription-description article {
+  margin-bottom: 40px;
+}
