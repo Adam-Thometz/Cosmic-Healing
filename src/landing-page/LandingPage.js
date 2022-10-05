@@ -4,7 +4,7 @@ import Hero from './hero/Hero';
 import MeetProfessional from './meet-professional/MeetProfessional';
 import CanHelpWith from './can-help-with/CanHelpWith';
 import Methodology from './methodology/Methodology';
-import Services from './services/Services';
+import ServiceInfo from './services/ServiceInfo';
 import HowItWorks from './how-it-works/HowItWorks';
 import Affiliates from './affiliates/Affiliates';
 
@@ -15,7 +15,7 @@ const LandingPage = () => {
       <MeetProfessional />
       <CanHelpWith />
       <Methodology />
-      <Services />
+      <ServiceInfo />
       <HowItWorks />
       <Affiliates />
     </main>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Services.css';
+import './ServiceInfo.css';
 
 import SectionHeader from '../../_components/section-header/SectionHeader';
 import SmallCaption from '../../_components/small-caption/SmallCaption';
@@ -8,14 +8,14 @@ import ServiceCard from './service-card/ServiceCard';
 
 import options from './serviceOptions';
 
-const Services = () => {
+const ServiceInfo = () => {
   return (
-    <section className='Services'>
-      <div className='Services-header'>
+    <section className='ServiceInfo'>
+      <div className='ServiceInfo-header'>
         <SmallCaption text="DO WHAT IS BEST FOR YOU" />
         <SectionHeader text="Choose your ideal environment" />
       </div>
-      <div className='Services-options'>
+      <div className='ServiceInfo-options'>
         {options.map(o => (
           <ServiceCard 
             service={o.service}
@@ -28,4 +28,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServiceInfo;

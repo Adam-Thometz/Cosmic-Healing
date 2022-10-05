@@ -1,4 +1,4 @@
-.Services {
+.ServiceInfo {
   background-image: 
     url(../../_media/backgrounds/orange-lines.png),
     url(../../_media/backgrounds/orange.png);
@@ -11,18 +11,18 @@
   margin: 5% 0;
 }
 
-.Services-header {
+.ServiceInfo-header {
   padding: 3% 0;
 }
 
-.Services-options {
+.ServiceInfo-options {
   display: flex;
   width: 80%;
   margin: 0 auto;
 }
 
 @media (max-width: 900px) {
-  .Services-options {
+  .ServiceInfo-options {
     flex-direction: column;
   }
 }

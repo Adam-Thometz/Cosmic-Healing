@@ -1,14 +1,14 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Services from './Services';
+import ServiceInfo from './ServiceInfo';
 
-describe('Services component', () => {
+describe('ServiceInfo component', () => {
   it('renders without crashing', () => {
-    render(<Services />);
+    render(<ServiceInfo />);
   });
 
   it('matches the snapshot', () => {
-    const { asFragment } = render(<Services />);
+    const { asFragment } = render(<ServiceInfo />);
     expect(asFragment()).toMatchSnapshot();
   });
 });
