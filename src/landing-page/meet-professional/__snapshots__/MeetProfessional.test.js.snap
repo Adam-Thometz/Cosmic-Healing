@@ -16,6 +16,11 @@ exports[`MeetProfessional component matches the snapshot 1`] = `
     <aside
       class="MeetProfessional-text-wrapper"
     >
+      <img
+        alt=""
+        class="MeetProfessional-stars"
+        src="stars.png"
+      />
       <small
         class="SmallCaption"
         style="color: black;"
