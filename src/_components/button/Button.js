@@ -4,14 +4,11 @@ import './Button.css';
 
 import arrow from './arrow.png';
 
-const Button = ({ primary = false,  secondary = false, onClick, children }) => {
-  const tertiary = !primary && !secondary;
-  const className = tertiary ? 'tertiary' : (
-    primary ? 'primary' : 'secondary'
-  );
-  return <button className={`Button ${className}`} onClick={onClick}>
+const Button = ({ primary = false, onClick, children }) => {
+  const btnClass = primary ? 'primary' : 'secondary'
+  return <button className={`Button ${btnClass}`} onClick={onClick}>
     {children}
-    {tertiary ? <img className='Button-arrow' src={arrow} alt='' /> : null}
+    {!primary ? <img className='Button-arrow' src={arrow} alt='' /> : null}
   </button>;
 };
 

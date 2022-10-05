@@ -73,7 +73,7 @@ exports[`LandingPage component matches the snapshot 1`] = `
           I am a licensed social worker and spiritual life coach who strives to help you uncover your purpose. I use a critically conscious lens, heart-centered approach and astrology charts to align with your higher authentic self. Let's go on this journey together as we sort through and make sense of each puzzle piece to form a full picture.
         </article>
         <button
-          class="Button tertiary"
+          class="Button secondary"
         >
           Read more
           <img
@@ -266,7 +266,7 @@ exports[`LandingPage component matches the snapshot 1`] = `
             Solo journey.
           </article>
           <button
-            class="Button tertiary"
+            class="Button secondary"
           >
             Learn more
             <img
@@ -290,7 +290,7 @@ exports[`LandingPage component matches the snapshot 1`] = `
             Go on a collective journey with others.
           </article>
           <button
-            class="Button tertiary"
+            class="Button secondary"
           >
             Learn more
             <img
@@ -314,7 +314,7 @@ exports[`LandingPage component matches the snapshot 1`] = `
             Learn more about the practice.
           </article>
           <button
-            class="Button tertiary"
+            class="Button secondary"
           >
             Learn more
             <img

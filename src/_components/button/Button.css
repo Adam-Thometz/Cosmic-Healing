@@ -18,13 +18,6 @@
 }
 
 .secondary {
-  padding: 8px 24px;
-  background-color: #000;
-  color: #FFF;
-  border-radius: 4px;
-}
-
-.tertiary {
   display: flex;
   align-items: center;
   background-color: rgba(0,0,0,0);

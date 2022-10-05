@@ -16,7 +16,7 @@ exports[`ServiceCard component matches the snapshot 1`] = `
       Solo journey.
     </article>
     <button
-      class="Button tertiary"
+      class="Button secondary"
     >
       Learn more
       <img

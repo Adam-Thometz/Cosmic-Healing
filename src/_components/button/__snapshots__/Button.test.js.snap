@@ -1,11 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button component matches the snapshot 1`] = `
+exports[`Button component matches the snapshot for primary button 1`] = `
 <DocumentFragment>
   <button
-    class="Button tertiary"
+    class="Button primary"
   >
-    Hello, I'm a button
+    Hello, I'm a primary button
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button component matches the snapshot for secondary button 1`] = `
+<DocumentFragment>
+  <button
+    class="Button secondary"
+  >
+    Hello, I'm a regular button
     <img
       alt=""
       class="Button-arrow"
