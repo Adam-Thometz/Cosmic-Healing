@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './LandingPage.css';
+
 import Hero from './hero/Hero';
 import MeetProfessional from './meet-professional/MeetProfessional';
 import CanHelpWith from './can-help-with/CanHelpWith';
