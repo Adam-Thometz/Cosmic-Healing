@@ -4,7 +4,7 @@ import Hero from './hero/Hero';
 import MeetProfessional from './meet-professional/MeetProfessional';
 import CanHelpWith from './can-help-with/CanHelpWith';
 import Methodology from './methodology/Methodology';
-import ServiceInfo from './services/ServiceInfo';
+import ServiceInfo from './services-info/ServiceInfo';
 import HowItWorks from './how-it-works/HowItWorks';
 import Affiliates from './affiliates/Affiliates';
 

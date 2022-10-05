@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingPage component matches the snapshot 1`] = `
+<DocumentFragment>
+  <main
+    class="LandingPage"
+  >
+    <header
+      class="Hero"
+    >
+      <section
+        class="Hero-text-wrapper"
+      >
+        <h1>
+          Break the cycle, become a better you
+        </h1>
+        <p>
+          Start your journey today to be on your path to become the person you were always designed to be.
+        </p>
+        <div
+          class="Hero-button-wrapper"
+        >
+          <button
+            class="Button primary"
+          >
+            Browse services
+          </button>
+          <small>
+            Licensed clinician with over 6 years experience delivering results to over 100 clients
+          </small>
+        </div>
+      </section>
+      <aside
+        class="Hero-img-wrapper"
+      >
+        <img
+          alt=""
+          src="miriam.png"
+        />
+      </aside>
+    </header>
+    <section
+      class="MeetProfessional"
+    >
+      <aside
+        class="MeetProfessional-img-wrapper"
+      >
+        <img
+          alt=""
+          src="miriam2.png"
+        />
+      </aside>
+      <aside
+        class="MeetProfessional-text-wrapper"
+      >
+        <img
+          alt=""
+          class="MeetProfessional-stars"
+          src="stars.png"
+        />
+        <small
+          class="SmallCaption"
+          style="color: black;"
+        >
+          MEET THE LICENSED PROFESSIONAL
+        </small>
+        <h2
+          class="SectionHeader"
+        >
+          Hello, my name is Miriam!
+        </h2>
+        <article>
+          I am a licensed social worker and spiritual life coach who strives to help you uncover your purpose. I use a critically conscious lens, heart-centered approach and astrology charts to align with your higher authentic self. Let's go on this journey together as we sort through and make sense of each puzzle piece to form a full picture.
+        </article>
+        <button
+          class="Button tertiary"
+        >
+          Read more
+          <img
+            alt=""
+            class="Button-arrow"
+            src="arrow.png"
+          />
+        </button>
+      </aside>
+    </section>
+    <section
+      class="CanHelpWith"
+    >
+      <aside
+        class="CanHelpWith-img-wrapper"
+      >
+        <img
+          alt=""
+          src="hand.png"
+        />
+      </aside>
+      <aside
+        class="CanHelpWith-text-wrapper"
+      >
+        <small
+          class="SmallCaption"
+          style="color: black;"
+        >
+          UNDERSTAND YOURSELF AND YOUR PURPOSE
+        </small>
+        <h2
+          class="SectionHeader"
+        >
+          Learn how to 
+          <span
+            class="CanHelpWith-moving-text"
+          >
+            improve emotional intelligence
+          </span>
+        </h2>
+      </aside>
+    </section>
+    <section
+      class="Methodology"
+    >
+      <small
+        class="SmallCaption"
+        style="color: black;"
+      >
+        HOW I CAN HELP..
+      </small>
+      <h2
+        class="SectionHeader"
+      >
+        My Process
+      </h2>
+      <div
+        class="Methodology-methods"
+      >
+        <figure
+          class="Method"
+        >
+          <img
+            alt="Dreamwork"
+            src="dreamwork.png"
+          />
+          <figcaption>
+            <h3>
+              Dreamwork
+            </h3>
+            <p>
+              Decode symbols within your dreams to uncover subconscious messages
+            </p>
+          </figcaption>
+        </figure>
+        <figure
+          class="Method"
+        >
+          <img
+            alt="Shadow Work"
+            src="shadow-work.png"
+          />
+          <figcaption>
+            <h3>
+              Shadow Work
+            </h3>
+            <p>
+              Integrate the repressed and hidden parts of you
+            </p>
+          </figcaption>
+        </figure>
+        <figure
+          class="Method"
+        >
+          <img
+            alt="Emotional Processing"
+            src="emotional-processing.png"
+          />
+          <figcaption>
+            <h3>
+              Emotional Processing
+            </h3>
+            <p>
+              Understand and process your emotions from the past and present
+            </p>
+          </figcaption>
+        </figure>
+        <figure
+          class="Method"
+        >
+          <img
+            alt="Motivational Interviewing"
+            src="motivational-interviewing.png"
+          />
+          <figcaption>
+            <h3>
+              Motivational Interviewing
+            </h3>
+            <p>
+              Find internal motivation to change self-destructive behavior
+            </p>
+          </figcaption>
+        </figure>
+        <figure
+          class="Method"
+        >
+          <img
+            alt="Cognitive Behavioral"
+            src="cognitive-behavioral.png"
+          />
+          <figcaption>
+            <h3>
+              Cognitive Behavioral
+            </h3>
+            <p>
+              Release negative patterns and limiting beliefs
+            </p>
+          </figcaption>
+        </figure>
+        <figure
+          class="Method"
+        >
+          <img
+            alt="Person Centered"
+            src="person-centered.png"
+          />
+          <figcaption>
+            <h3>
+              Person Centered
+            </h3>
+            <p>
+              Gain the confidence to take charge of your own life
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section
+      class="ServiceInfo"
+    >
+      <div
+        class="ServiceInfo-header"
+      >
+        <small
+          class="SmallCaption"
+          style="color: black;"
+        >
+          DO WHAT IS BEST FOR YOU
+        </small>
+        <h2
+          class="SectionHeader"
+        >
+          Choose your ideal environment
+        </h2>
+      </div>
+      <div
+        class="ServiceInfo-options"
+      >
+        <div
+          class="ServiceCard"
+        >
+          <h3
+            class="SectionHeader"
+          >
+            Individual Quest
+          </h3>
+          <article
+            class="ServiceCard-description"
+          >
+            Solo journey.
+          </article>
+          <button
+            class="Button tertiary"
+          >
+            Learn more
+            <img
+              alt=""
+              class="Button-arrow"
+              src="arrow.png"
+            />
+          </button>
+        </div>
+        <div
+          class="ServiceCard"
+        >
+          <h3
+            class="SectionHeader"
+          >
+            Group Sessions
+          </h3>
+          <article
+            class="ServiceCard-description"
+          >
+            Go on a collective journey with others.
+          </article>
+          <button
+            class="Button tertiary"
+          >
+            Learn more
+            <img
+              alt=""
+              class="Button-arrow"
+              src="arrow.png"
+            />
+          </button>
+        </div>
+        <div
+          class="ServiceCard"
+        >
+          <h3
+            class="SectionHeader"
+          >
+            Facts and Questions
+          </h3>
+          <article
+            class="ServiceCard-description"
+          >
+            Learn more about the practice.
+          </article>
+          <button
+            class="Button tertiary"
+          >
+            Learn more
+            <img
+              alt=""
+              class="Button-arrow"
+              src="arrow.png"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      class="HowItWorks"
+    >
+      <aside
+        class="HowItWorks-text-wrapper"
+      >
+        <small
+          class="SmallCaption"
+          style="color: black;"
+        >
+          HOW IT WORKS..
+        </small>
+        <h2
+          class="SectionHeader"
+        >
+          Start in three easy steps
+        </h2>
+        <ol>
+          <li>
+            <h3
+              class="SectionHeader"
+            >
+              Motivational Interviewing
+            </h3>
+            <p>
+              Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+            </p>
+          </li>
+          <li>
+            <h3
+              class="SectionHeader"
+            >
+              Motivational Interviewing
+            </h3>
+            <p>
+              Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+            </p>
+          </li>
+          <li>
+            <h3
+              class="SectionHeader"
+            >
+              Motivational Interviewing
+            </h3>
+            <p>
+              Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+            </p>
+          </li>
+        </ol>
+        <button
+          class="Button primary"
+        >
+          Get started
+        </button>
+      </aside>
+      <aside
+        class="HowItWorks-img-wrapper"
+      >
+        <img
+          alt=""
+          src="paper-plane.png"
+        />
+      </aside>
+    </section>
+    <section
+      class="Affiliates"
+    >
+      <aside
+        class="Affiliates-text"
+      >
+        <small
+          class="SmallCaption"
+          style="color: black;"
+        >
+          PROUD TO BE WORKING IN PARTNERSHIP WITH..
+        </small>
+      </aside>
+      <aside
+        class="Affiliates-icons"
+      >
+        <img
+          alt="Inclusive Therapists"
+          class="Affiliates-icon"
+          src="inclusive-therapists.png"
+        />
+        <img
+          alt="Eastern Group Psychotherapy Society"
+          class="Affiliates-icon"
+          src="egps.png"
+        />
+        <img
+          alt="National Queer and Trans Therapists of Color Network"
+          class="Affiliates-icon"
+          src="nqttcn.png"
+        />
+        <img
+          alt="Manhattan Alternative"
+          class="Affiliates-icon"
+          src="manhattan-alternative.png"
+        />
+        <img
+          alt="Alma"
+          class="Affiliates-icon"
+          src="alma.png"
+        />
+        <img
+          alt="Therapy for Black Girls"
+          class="Affiliates-icon"
+          src="therapy-for-black-girls.png"
+        />
+      </aside>
+    </section>
+  </main>
+</DocumentFragment>
+`;
