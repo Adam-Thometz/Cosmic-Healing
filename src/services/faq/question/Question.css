@@ -1,0 +1,37 @@
+.Question {
+  position: relative;
+  text-align: left;
+  width: 72%;
+  margin: 0 auto;
+  border-bottom: 1px solid #CFC8D8;
+}
+
+.Question:last-child {
+  border-bottom: none;
+}
+
+.Question > .Question-question-wrapper {
+  list-style-image: url(../../../_media/services/expand.png);
+  margin: 20px 0;
+  position: relative;
+  text-align: right;
+}
+
+.Question[open] > .Question-question-wrapper {
+  list-style-image: url(../../../_media/services/collapse.png);
+}
+
+.Question-question {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Question-question h3 {
+  display: inline;
+  margin: 50px 0;
+}
+
+.Question-answer {
+  width: 75%;
+}
