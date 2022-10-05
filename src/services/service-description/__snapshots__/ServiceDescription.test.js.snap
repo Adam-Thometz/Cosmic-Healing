@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceDescription component matches the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="ServiceDescription"
+  >
+    <img
+      alt=""
+      src="pic of guy just testing software"
+    />
+    <aside
+      class="ServiceDescription-description"
+    >
+      <h3
+        class="SectionHeader"
+      >
+        Software Testing
+      </h3>
+      <article>
+        I love testing so much
+      </article>
+      <button
+        class="Button primary"
+      >
+        Book a free session
+      </button>
+    </aside>
+  </section>
+</DocumentFragment>
+`;
