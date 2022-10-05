@@ -1,14 +1,14 @@
 import React from "react";
-import { render } from "@testing-library/react";
+import renderWithBrowser from '../_test/renderWithBrowser';
 import Navbar from './Navbar';
 
 describe('Navbar component', () => {
   it('renders without crashing', () => {
-    render(<Navbar />);
+    renderWithBrowser(<Navbar />);
   });
 
   it('matches the snapshot', () => {
-    const { asFragment } = render(<Navbar />);
+    const { asFragment } = renderWithBrowser(<Navbar />);
     expect(asFragment()).toMatchSnapshot();
   });
 });

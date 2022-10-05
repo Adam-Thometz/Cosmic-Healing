@@ -19,3 +19,7 @@
   padding: 12px 8px;
   line-height: 16px;
 }
+
+.Navbar-links .active {
+  color: #D87B41;
+}
