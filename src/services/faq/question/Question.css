@@ -11,14 +11,14 @@
 }
 
 .Question > .Question-question-wrapper {
-  list-style-image: url(../../../_media/services/expand.png);
+  list-style-image: url(../../../_media/services/collapsed.png);
   margin: 20px 0;
   position: relative;
   text-align: right;
 }
 
 .Question[open] > .Question-question-wrapper {
-  list-style-image: url(../../../_media/services/collapse.png);
+  list-style-image: url(../../../_media/services/expanded.png);
 }
 
 .Question-question {
