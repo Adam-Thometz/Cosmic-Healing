@@ -20,11 +20,11 @@ exports[`ServiceDescription component matches the snapshot 1`] = `
       <article>
         I love testing so much
       </article>
-      <button
-        class="Button primary"
+      <a
+        class="Link primary"
       >
         Book a free session
-      </button>
+      </a>
     </aside>
   </section>
 </DocumentFragment>

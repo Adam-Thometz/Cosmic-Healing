@@ -2,7 +2,7 @@ import React from 'react'
 
 import './ServiceCard.css';
 
-import Button from '../../../_components/button/Button'
+import Link from '../../../_components/link/Link'
 import SectionHeader from '../../../_components/section-header/SectionHeader'
 
 const ServiceCard = ({ service, description, link }) => {
@@ -10,7 +10,7 @@ const ServiceCard = ({ service, description, link }) => {
     <div className='ServiceCard'>
       <SectionHeader small text={service} />
       <article className='ServiceCard-description'>{description}</article>
-      <Button>Learn more</Button>
+      <Link>Learn more</Link>
     </div>
   )
 }

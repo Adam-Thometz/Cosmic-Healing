@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import './Navbar.css';
 
-import Button from '../_components/button/Button';
+import Link from '../_components/link/Link';
 
 const Navbar = ({ style }) => {
   const active = ({ isActive }) => isActive ? 'active' : '';
@@ -15,7 +15,7 @@ const Navbar = ({ style }) => {
         <NavLink to='about-me' className={active}>About Me</NavLink>
         <NavLink to='services' className={active}>Services</NavLink>
       </section>
-      <Button primary>Book a free session</Button>
+      <Link primary>Book a free session</Link>
     </nav>
   );
 };

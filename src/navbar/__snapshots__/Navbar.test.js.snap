@@ -32,11 +32,11 @@ exports[`Navbar component matches the snapshot 1`] = `
         Services
       </a>
     </section>
-    <button
-      class="Button primary"
+    <a
+      class="Link primary"
     >
       Book a free session
-    </button>
+    </a>
   </nav>
 </DocumentFragment>
 `;

@@ -35,16 +35,16 @@ exports[`MeetProfessional component matches the snapshot 1`] = `
       <article>
         I am a licensed social worker and spiritual life coach who strives to help you uncover your purpose. I use a critically conscious lens, heart-centered approach and astrology charts to align with your higher authentic self. Let's go on this journey together as we sort through and make sense of each puzzle piece to form a full picture.
       </article>
-      <button
-        class="Button secondary"
+      <a
+        class="Link secondary"
       >
         Read more
         <img
           alt=""
-          class="Button-arrow"
+          class="Link-arrow"
           src="arrow.png"
         />
-      </button>
+      </a>
     </aside>
   </section>
 </DocumentFragment>

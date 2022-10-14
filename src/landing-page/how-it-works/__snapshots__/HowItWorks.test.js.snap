@@ -51,11 +51,11 @@ exports[`HowItWorks component matches the snapshot 1`] = `
           </p>
         </li>
       </ol>
-      <button
-        class="Button primary"
+      <a
+        class="Link primary"
       >
         Get started
-      </button>
+      </a>
     </aside>
     <aside
       class="HowItWorks-img-wrapper"

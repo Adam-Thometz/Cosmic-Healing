@@ -5,7 +5,7 @@
   animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
-.Navbar button {
+.Navbar .Link {
   position: absolute;
   top: 16px;
   right: 5%;

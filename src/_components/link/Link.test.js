@@ -1,22 +1,21 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Button from './Button';
+import Link from './Link';
 
-describe('Button component', () => {
-  const component = <Button primary>Hello, I'm a primary button</Button>;
-  const component2 = <Button>Hello, I'm a regular button</Button>;
+describe('Link component', () => {
+  const component = <Link primary>Hello, I'm a primary link</Link>;
+  const component2 = <Link>Hello, I'm a regular link</Link>;
   it('renders without crashing', () => {
     render(component);
   });
 
-  it('matches the snapshot for primary button', () => {
+  it('matches the snapshot for primary link', () => {
     const { asFragment } = render(component);
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it('matches the snapshot for secondary button', () => {
+  it('matches the snapshot for secondary link', () => {
     const { asFragment } = render(component2);
     expect(asFragment()).toMatchSnapshot();
   });
-
 });

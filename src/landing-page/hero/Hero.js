@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Hero.css';
 
-import Button from '../../_components/button/Button';
+import Link from '../../_components/link/Link';
 
 import miriam from '../../_media/miriam.png';
 
@@ -12,8 +12,8 @@ const Hero = ({ style }) => {
       <section className='Hero-text-wrapper'>
         <h1>Break the cycle, become a better you</h1>
         <p>Start your journey today to be on your path to become the person you were always designed to be.</p>
-        <div className='Hero-button-wrapper'>
-          <Button primary>Browse services</Button>
+        <div className='Hero-link-wrapper'>
+          <Link primary>Browse services</Link>
           <small>Licensed clinician with over 6 years experience delivering results to over 100 clients</small>
         </div>
       </section>

@@ -15,13 +15,13 @@ exports[`Hero component matches the snapshot 1`] = `
         Start your journey today to be on your path to become the person you were always designed to be.
       </p>
       <div
-        class="Hero-button-wrapper"
+        class="Hero-link-wrapper"
       >
-        <button
-          class="Button primary"
+        <a
+          class="Link primary"
         >
           Browse services
-        </button>
+        </a>
         <small>
           Licensed clinician with over 6 years experience delivering results to over 100 clients
         </small>

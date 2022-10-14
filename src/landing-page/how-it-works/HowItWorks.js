@@ -2,7 +2,7 @@ import React from 'react';
 
 import './HowItWorks.css';
 
-import Button from '../../_components/button/Button';
+import Link from '../../_components/link/Link';
 import SectionHeader from '../../_components/section-header/SectionHeader';
 import SmallCaption from '../../_components/small-caption/SmallCaption';
 
@@ -28,7 +28,7 @@ const HowItWorks = ({ style }) => {
             <p>Interaction design is the practice of designing interactive digital products, environments, systems, and services.</p>
           </li>
         </ol>
-        <Button primary>Get started</Button>
+        <Link primary>Get started</Link>
       </aside>
       <aside className='HowItWorks-img-wrapper'>
         <img src={paperPlane} alt='' />

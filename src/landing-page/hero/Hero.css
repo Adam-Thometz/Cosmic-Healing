@@ -34,17 +34,17 @@
   line-height: 81px;
 }
 
-.Hero-button-wrapper {
+.Hero-link-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.Hero-button-wrapper button {
+.Hero-link-wrapper .Link {
   width: 30%;
 }
 
-.Hero-button-wrapper small {
+.Hero-link-wrapper small {
   font-family: Nuckle;
   margin-left: 24px;
 }

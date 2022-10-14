@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link component matches the snapshot for primary link 1`] = `
+<DocumentFragment>
+  <a
+    class="Link primary"
+  >
+    Hello, I'm a primary link
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link component matches the snapshot for secondary link 1`] = `
+<DocumentFragment>
+  <a
+    class="Link secondary"
+  >
+    Hello, I'm a regular link
+    <img
+      alt=""
+      class="Link-arrow"
+      src="arrow.png"
+    />
+  </a>
+</DocumentFragment>
+`;

@@ -36,16 +36,16 @@ exports[`ServiceInfo component matches the snapshot 1`] = `
         >
           Solo journey.
         </article>
-        <button
-          class="Button secondary"
+        <a
+          class="Link secondary"
         >
           Learn more
           <img
             alt=""
-            class="Button-arrow"
+            class="Link-arrow"
             src="arrow.png"
           />
-        </button>
+        </a>
       </div>
       <div
         class="ServiceCard"
@@ -60,16 +60,16 @@ exports[`ServiceInfo component matches the snapshot 1`] = `
         >
           Go on a collective journey with others.
         </article>
-        <button
-          class="Button secondary"
+        <a
+          class="Link secondary"
         >
           Learn more
           <img
             alt=""
-            class="Button-arrow"
+            class="Link-arrow"
             src="arrow.png"
           />
-        </button>
+        </a>
       </div>
       <div
         class="ServiceCard"
@@ -84,16 +84,16 @@ exports[`ServiceInfo component matches the snapshot 1`] = `
         >
           Learn more about the practice.
         </article>
-        <button
-          class="Button secondary"
+        <a
+          class="Link secondary"
         >
           Learn more
           <img
             alt=""
-            class="Button-arrow"
+            class="Link-arrow"
             src="arrow.png"
           />
-        </button>
+        </a>
       </div>
     </div>
   </section>

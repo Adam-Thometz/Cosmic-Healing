@@ -19,13 +19,13 @@ exports[`LandingPage component matches the snapshot 1`] = `
           Start your journey today to be on your path to become the person you were always designed to be.
         </p>
         <div
-          class="Hero-button-wrapper"
+          class="Hero-link-wrapper"
         >
-          <button
-            class="Button primary"
+          <a
+            class="Link primary"
           >
             Browse services
-          </button>
+          </a>
           <small>
             Licensed clinician with over 6 years experience delivering results to over 100 clients
           </small>
@@ -74,16 +74,16 @@ exports[`LandingPage component matches the snapshot 1`] = `
         <article>
           I am a licensed social worker and spiritual life coach who strives to help you uncover your purpose. I use a critically conscious lens, heart-centered approach and astrology charts to align with your higher authentic self. Let's go on this journey together as we sort through and make sense of each puzzle piece to form a full picture.
         </article>
-        <button
-          class="Button secondary"
+        <a
+          class="Link secondary"
         >
           Read more
           <img
             alt=""
-            class="Button-arrow"
+            class="Link-arrow"
             src="arrow.png"
           />
-        </button>
+        </a>
       </aside>
     </section>
     <section
@@ -269,16 +269,16 @@ exports[`LandingPage component matches the snapshot 1`] = `
           >
             Solo journey.
           </article>
-          <button
-            class="Button secondary"
+          <a
+            class="Link secondary"
           >
             Learn more
             <img
               alt=""
-              class="Button-arrow"
+              class="Link-arrow"
               src="arrow.png"
             />
-          </button>
+          </a>
         </div>
         <div
           class="ServiceCard"
@@ -293,16 +293,16 @@ exports[`LandingPage component matches the snapshot 1`] = `
           >
             Go on a collective journey with others.
           </article>
-          <button
-            class="Button secondary"
+          <a
+            class="Link secondary"
           >
             Learn more
             <img
               alt=""
-              class="Button-arrow"
+              class="Link-arrow"
               src="arrow.png"
             />
-          </button>
+          </a>
         </div>
         <div
           class="ServiceCard"
@@ -317,16 +317,16 @@ exports[`LandingPage component matches the snapshot 1`] = `
           >
             Learn more about the practice.
           </article>
-          <button
-            class="Button secondary"
+          <a
+            class="Link secondary"
           >
             Learn more
             <img
               alt=""
-              class="Button-arrow"
+              class="Link-arrow"
               src="arrow.png"
             />
-          </button>
+          </a>
         </div>
       </div>
     </section>
@@ -380,11 +380,11 @@ exports[`LandingPage component matches the snapshot 1`] = `
             </p>
           </li>
         </ol>
-        <button
-          class="Button primary"
+        <a
+          class="Link primary"
         >
           Get started
-        </button>
+        </a>
       </aside>
       <aside
         class="HowItWorks-img-wrapper"

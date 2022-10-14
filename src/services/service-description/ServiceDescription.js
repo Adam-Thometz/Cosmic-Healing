@@ -2,7 +2,7 @@ import React from 'react';
 
 import './ServiceDescription.css';
 
-import Button from '../../_components/button/Button';
+import Link from '../../_components/link/Link';
 import SectionHeader from '../../_components/section-header/SectionHeader';
 
 const ServiceDescription = ({ name, description, image, i }) => {
@@ -12,7 +12,7 @@ const ServiceDescription = ({ name, description, image, i }) => {
       <aside className='ServiceDescription-description'>
         <SectionHeader small text={name} />
         <article>{description}</article>
-        <Button primary>Book a free session</Button>
+        <Link primary>Book a free session</Link>
       </aside>
     </section>
   );

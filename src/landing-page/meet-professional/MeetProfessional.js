@@ -2,7 +2,7 @@ import React from 'react';
 
 import './MeetProfessional.css';
 
-import Button from '../../_components/button/Button';
+import Link from '../../_components/link/Link';
 import SmallCaption from '../../_components/small-caption/SmallCaption';
 import SectionHeader from '../../_components/section-header/SectionHeader';
 
@@ -20,7 +20,7 @@ const MeetProfessional = ({ style }) => {
         <SmallCaption text="MEET THE LICENSED PROFESSIONAL" />
         <SectionHeader text="Hello, my name is Miriam!" />
         <article>I am a licensed social worker and spiritual life coach who strives to help you uncover your purpose. I use a critically conscious lens, heart-centered approach and astrology charts to align with your higher authentic self. Let's go on this journey together as we sort through and make sense of each puzzle piece to form a full picture.</article>
-        <Button>Read more</Button>
+        <Link>Read more</Link>
       </aside>
     </section>
   );

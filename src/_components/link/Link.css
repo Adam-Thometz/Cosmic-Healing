@@ -1,12 +1,11 @@
-.Button {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+.Link {
   font-size: 16px;
   font-weight: 500;
-  border: none;
+  text-align: center;
   cursor: pointer;
 }
 
-.Button-arrow {
+.Link-arrow {
   margin: 8px 0 8px 8px;
 }
 
@@ -17,6 +16,7 @@
   padding: 8px 16px;
   box-shadow: 0px 4px 35px 0px #782DCA26;
   transition: background-color 0.3s;
+  width: 150px;
 }
 
 .secondary {
@@ -26,6 +26,7 @@
   border: 2px solid black;
   border-radius: 5px;
   padding: 4px 16px;
+  width: 110px;
 }
 
 .primary:hover{
