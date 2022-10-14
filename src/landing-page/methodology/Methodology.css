@@ -1,5 +1,5 @@
 .Methodology {
-  margin: 5% 0;
+  margin: var(--margin) 0;
   animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 

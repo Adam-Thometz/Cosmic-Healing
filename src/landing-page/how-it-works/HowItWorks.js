@@ -6,7 +6,7 @@ import Link from '../../_components/link/Link';
 import SectionHeader from '../../_components/section-header/SectionHeader';
 import SmallCaption from '../../_components/small-caption/SmallCaption';
 
-import paperPlane from '../../_media/paper-plane.png';
+import paperPlane from '../../_media/landing-page/paper-plane.png';
 
 const HowItWorks = ({ style }) => {
   return (
