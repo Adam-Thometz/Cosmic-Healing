@@ -1,6 +1,7 @@
 :root {
   --duration: 1s;
   --delay: 0.3s;
+  --margin: 72px;
 }
 
 @font-face {
