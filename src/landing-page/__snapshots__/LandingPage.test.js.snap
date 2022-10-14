@@ -105,18 +105,22 @@ exports[`LandingPage component matches the snapshot 1`] = `
           class="SmallCaption"
           style="color: black;"
         >
-          UNDERSTAND YOURSELF AND YOUR PURPOSE
+          Understand yourself
         </small>
         <h2
           class="SectionHeader"
         >
-          Learn how to 
-          <span
-            class="CanHelpWith-moving-text"
-          >
-            improve emotional intelligence
-          </span>
+          Learn how to
         </h2>
+        <div
+          class="CanHelpWith-slider-wrapper"
+        >
+          <p
+            class="CanHelpWith-slider-text"
+          >
+            increase emotional intelligence
+          </p>
+        </div>
       </aside>
     </section>
     <section
