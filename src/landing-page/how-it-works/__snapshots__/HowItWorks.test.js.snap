@@ -20,41 +20,47 @@ exports[`HowItWorks component matches the snapshot 1`] = `
         Start in three easy steps
       </h2>
       <ol>
-        <li>
+        <li
+          class="HowItWorks-step"
+        >
           <h3
             class="SectionHeader"
           >
-            Motivational Interviewing
+            Browse services
           </h3>
           <p>
-            Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+            Browse services and pick the right path for you.
           </p>
         </li>
-        <li>
+        <li
+          class="HowItWorks-step"
+        >
           <h3
             class="SectionHeader"
           >
-            Motivational Interviewing
+            Get connected
           </h3>
           <p>
-            Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+            Answer a few questions or schedule a free appointment and a clincian will reach out.
           </p>
         </li>
-        <li>
+        <li
+          class="HowItWorks-step"
+        >
           <h3
             class="SectionHeader"
           >
-            Motivational Interviewing
+            Begin
           </h3>
           <p>
-            Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+            Congratulations on taking the first step towards a rewarding experience. 
           </p>
         </li>
       </ol>
       <a
         class="Link primary"
       >
-        Get started
+        Get Started
       </a>
     </aside>
     <aside

@@ -12,7 +12,7 @@ exports[`ServiceInfo component matches the snapshot 1`] = `
         class="SmallCaption"
         style="color: black;"
       >
-        DO WHAT IS BEST FOR YOU
+        Specialized meets unconventional
       </small>
       <h2
         class="SectionHeader"
@@ -29,12 +29,12 @@ exports[`ServiceInfo component matches the snapshot 1`] = `
         <h3
           class="SectionHeader"
         >
-          Individual Quest
+          Individual Sessions
         </h3>
         <article
           class="ServiceCard-description"
         >
-          Solo journey.
+          One-one sessions are individualized, evidence-based therapeutic services for ages ___ and up. Services include assessment, goal setting  and treatment palnning.
         </article>
         <a
           class="Link secondary"
@@ -58,31 +58,7 @@ exports[`ServiceInfo component matches the snapshot 1`] = `
         <article
           class="ServiceCard-description"
         >
-          Go on a collective journey with others.
-        </article>
-        <a
-          class="Link secondary"
-        >
-          Learn more
-          <img
-            alt=""
-            class="Link-arrow"
-            src="arrow.png"
-          />
-        </a>
-      </div>
-      <div
-        class="ServiceCard"
-      >
-        <h3
-          class="SectionHeader"
-        >
-          Facts and Questions
-        </h3>
-        <article
-          class="ServiceCard-description"
-        >
-          Learn more about the practice.
+          Group sessions are carefully curated and designed to explore a shared theme. Members learn from the experiences of others and develop a strong bond with group mates.
         </article>
         <a
           class="Link secondary"

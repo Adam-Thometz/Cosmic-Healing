@@ -8,12 +8,12 @@ exports[`ServiceCard component matches the snapshot 1`] = `
     <h3
       class="SectionHeader"
     >
-      Individual Quest
+      Individual Sessions
     </h3>
     <article
       class="ServiceCard-description"
     >
-      Solo journey.
+      One-one sessions are individualized, evidence-based therapeutic services for ages ___ and up. Services include assessment, goal setting  and treatment palnning.
     </article>
     <a
       class="Link secondary"

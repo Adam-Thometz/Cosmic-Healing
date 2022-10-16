@@ -264,7 +264,7 @@ exports[`LandingPage component matches the snapshot 1`] = `
           class="SmallCaption"
           style="color: black;"
         >
-          DO WHAT IS BEST FOR YOU
+          Specialized meets unconventional
         </small>
         <h2
           class="SectionHeader"
@@ -281,12 +281,12 @@ exports[`LandingPage component matches the snapshot 1`] = `
           <h3
             class="SectionHeader"
           >
-            Individual Quest
+            Individual Sessions
           </h3>
           <article
             class="ServiceCard-description"
           >
-            Solo journey.
+            One-one sessions are individualized, evidence-based therapeutic services for ages ___ and up. Services include assessment, goal setting  and treatment palnning.
           </article>
           <a
             class="Link secondary"
@@ -310,31 +310,7 @@ exports[`LandingPage component matches the snapshot 1`] = `
           <article
             class="ServiceCard-description"
           >
-            Go on a collective journey with others.
-          </article>
-          <a
-            class="Link secondary"
-          >
-            Learn more
-            <img
-              alt=""
-              class="Link-arrow"
-              src="arrow.png"
-            />
-          </a>
-        </div>
-        <div
-          class="ServiceCard"
-        >
-          <h3
-            class="SectionHeader"
-          >
-            Facts and Questions
-          </h3>
-          <article
-            class="ServiceCard-description"
-          >
-            Learn more about the practice.
+            Group sessions are carefully curated and designed to explore a shared theme. Members learn from the experiences of others and develop a strong bond with group mates.
           </article>
           <a
             class="Link secondary"
@@ -368,41 +344,47 @@ exports[`LandingPage component matches the snapshot 1`] = `
           Start in three easy steps
         </h2>
         <ol>
-          <li>
+          <li
+            class="HowItWorks-step"
+          >
             <h3
               class="SectionHeader"
             >
-              Motivational Interviewing
+              Browse services
             </h3>
             <p>
-              Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+              Browse services and pick the right path for you.
             </p>
           </li>
-          <li>
+          <li
+            class="HowItWorks-step"
+          >
             <h3
               class="SectionHeader"
             >
-              Motivational Interviewing
+              Get connected
             </h3>
             <p>
-              Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+              Answer a few questions or schedule a free appointment and a clincian will reach out.
             </p>
           </li>
-          <li>
+          <li
+            class="HowItWorks-step"
+          >
             <h3
               class="SectionHeader"
             >
-              Motivational Interviewing
+              Begin
             </h3>
             <p>
-              Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+              Congratulations on taking the first step towards a rewarding experience. 
             </p>
           </li>
         </ol>
         <a
           class="Link primary"
         >
-          Get started
+          Get Started
         </a>
       </aside>
       <aside
@@ -425,7 +407,7 @@ exports[`LandingPage component matches the snapshot 1`] = `
           class="SmallCaption"
           style="color: black;"
         >
-          PROUD TO BE WORKING IN PARTNERSHIP WITH..
+          Working in partnership with...
         </small>
       </aside>
       <aside
