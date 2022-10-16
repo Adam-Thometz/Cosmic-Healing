@@ -1,7 +1,7 @@
 .Affiliates {
   display: flex;
   align-items: top;
-  margin: var(--margin) 5%;
+  margin: var(--margin) 3%;
   animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
@@ -16,7 +16,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: 80%;
 }
 
 .Affiliates-icon {

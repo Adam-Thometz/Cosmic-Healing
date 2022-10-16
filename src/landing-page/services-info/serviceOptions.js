@@ -1,17 +1,12 @@
 const options = [
   {
-    service: "Individual Quest",
-    description: "Solo journey.",
+    service: "Individual Sessions",
+    description: "One-one sessions are individualized, evidence-based therapeutic services for ages ___ and up. Services include assessment, goal setting  and treatment palnning.",
     link: null
   },
   {
     service: "Group Sessions",
-    description: "Go on a collective journey with others.",
-    link: null
-  },
-  {
-    service: "Facts and Questions",
-    description: "Learn more about the practice.",
+    description: "Group sessions are carefully curated and designed to explore a shared theme. Members learn from the experiences of others and develop a strong bond with group mates.",
     link: null
   }
 ];

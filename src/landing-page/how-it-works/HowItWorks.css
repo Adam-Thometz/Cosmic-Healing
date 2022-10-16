@@ -11,12 +11,30 @@
   width: 50%;
 }
 
+.HowItWorks-step {
+  margin: 36px 16px;
+}
+
+.HowItWorks-step::marker {
+  font-size: 36px;
+  font-family: Nimbus;
+  white-space: pre-line;
+}
+
+.HowItWorks-step h3, .HowItWorks-step p {
+  margin-left: 32px;
+}
+
 .HowItWorks-img-wrapper {
   width: 50%;
 }
 
 .HowItWorks-img-wrapper img {
   width: 100%;
+}
+
+.HowItWorks .Link {
+  margin: 0 84px;
 }
 
 @media (max-width: 600px) {

@@ -10,7 +10,7 @@ const Affiliates = ({ style }) => {
   return (
     <section className='Affiliates' style={style}>
       <aside className='Affiliates-text'>
-        <SmallCaption text="PROUD TO BE WORKING IN PARTNERSHIP WITH.." />
+        <SmallCaption text="Working in partnership with..." />
       </aside>
       <aside className='Affiliates-icons'>
         {affiliates.map(a => (

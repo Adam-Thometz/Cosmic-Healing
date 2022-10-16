@@ -12,7 +12,7 @@ const ServiceInfo = ({ style }) => {
   return (
     <section className='ServiceInfo' style={style}>
       <div className='ServiceInfo-header'>
-        <SmallCaption text="DO WHAT IS BEST FOR YOU" />
+        <SmallCaption text="Specialized meets unconventional" />
         <SectionHeader text="Choose your ideal environment" />
       </div>
       <div className='ServiceInfo-options'>

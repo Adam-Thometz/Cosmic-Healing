@@ -15,20 +15,20 @@ const HowItWorks = ({ style }) => {
         <SmallCaption text="HOW IT WORKS.." />
         <SectionHeader text="Start in three easy steps" />
         <ol>
-          <li>
-            <SectionHeader small text="Motivational Interviewing" />
-            <p>Interaction design is the practice of designing interactive digital products, environments, systems, and services.</p>
+          <li className='HowItWorks-step'>
+            <SectionHeader small text="Browse services" />
+            <p>Browse services and pick the right path for you.</p>
           </li>
-          <li>
-            <SectionHeader small text="Motivational Interviewing" />
-            <p>Interaction design is the practice of designing interactive digital products, environments, systems, and services.</p>
+          <li className='HowItWorks-step'>
+            <SectionHeader small text="Get connected" />
+            <p>Answer a few questions or schedule a free appointment and a clincian will reach out.</p>
           </li>
-          <li>
-            <SectionHeader small text="Motivational Interviewing" />
-            <p>Interaction design is the practice of designing interactive digital products, environments, systems, and services.</p>
+          <li className='HowItWorks-step'>
+            <SectionHeader small text="Begin" />
+            <p>Congratulations on taking the first step towards a rewarding experience. </p>
           </li>
         </ol>
-        <Link primary>Get started</Link>
+        <Link primary>Get Started</Link>
       </aside>
       <aside className='HowItWorks-img-wrapper'>
         <img src={paperPlane} alt='' />
