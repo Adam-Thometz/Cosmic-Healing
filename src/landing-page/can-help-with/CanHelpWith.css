@@ -21,12 +21,9 @@
 }
 
 .CanHelpWith-slider-wrapper {
-  z-index: -5;
-  width: 70%;
   height: var(--height);
-  position: relative;
   list-style: none;
-  margin-left: -6.5%;
+  margin-left: -40px;
   line-height: var(--height);
   overflow: hidden;
 }
@@ -57,10 +54,6 @@
 
   .CanHelpWith-text-wrapper {
     width: 80%;
-  }
-
-  .CanHelpWith-moving-text {
-    display: block;
   }
 }
 
