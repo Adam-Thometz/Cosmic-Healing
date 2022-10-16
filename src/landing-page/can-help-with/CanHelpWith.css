@@ -21,29 +21,33 @@
 }
 
 .CanHelpWith-slider-wrapper {
+  z-index: -5;
   width: 70%;
   height: var(--height);
   position: relative;
+  list-style: none;
+  margin-left: -6.5%;
+  line-height: var(--height);
+  overflow: hidden;
 }
 
 .CanHelpWith-slider-text {
   color: #E35662;
   font-size: calc((var(--height) / 3) * 2);
-  padding: 8px 0;
   margin: 0;
+  position: relative;
+  top: 0;
+  animation: slide 20s steps(4) infinite;
 }
 
-
-.CanHelpWith-slider-wrapper::before {
+.CanHelpWith-slider-text::after {
   content: '';
-  z-index: 2;
-  background-color: #fff;
-  display: block;
-  width: 500px;
-  height: 100%;
   position: absolute;
-  top: 0;
-  animation: openclose 5s infinite both;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  animation: openclose 5s linear infinite;
 }
 
 @media (max-width: 600px) {
@@ -60,44 +64,23 @@
   }
 }
 
-@keyframes openclose {
-  from {
-    left: -100px;
-  }
-  20% {
-    left: 350px;
-  }
-  80% {
-    left: 350px;
-  }
+@keyframes slide {
   to {
-    left: -100px;
+    top: calc((var(--height)) * -4);
   }
 }
 
-@keyframes movetext {
+@keyframes openclose {
   from {
-    margin-bottom: 0;
+    left: 0;
   }
-  25% {
-    margin-bottom: calc(var(--height));
+  20% {
+    left: 100%;
   }
-  30% {
-    margin-bottom: calc(var(--height));
+  80% {
+    left: 100%;
   }
-  50% {
-    margin-bottom: calc(var(--height) * 2);
-  }
-  55% {
-    margin-bottom: calc(var(--height) * 2);
-  }
-  65% {
-    margin-bottom: calc(var(--height) * 3);
-  }
-  70% {
-    margin-bottom: calc(var(--height) * 3);
-  }
-  950% {
-    margin-bottom: calc(var(--height) * 4);
+  to {
+    left: 0;
   }
 }

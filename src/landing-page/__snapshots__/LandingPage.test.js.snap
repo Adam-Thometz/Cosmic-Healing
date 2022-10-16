@@ -112,15 +112,30 @@ exports[`LandingPage component matches the snapshot 1`] = `
         >
           Learn how to
         </h2>
-        <div
+        <ul
           class="CanHelpWith-slider-wrapper"
         >
-          <p
+          <li
             class="CanHelpWith-slider-text"
           >
             increase emotional intelligence
-          </p>
-        </div>
+          </li>
+          <li
+            class="CanHelpWith-slider-text"
+          >
+            improve motivation and focus
+          </li>
+          <li
+            class="CanHelpWith-slider-text"
+          >
+            strengthen relationships
+          </li>
+          <li
+            class="CanHelpWith-slider-text"
+          >
+            boost self esteem
+          </li>
+        </ul>
       </aside>
     </section>
     <section
