@@ -37,12 +37,16 @@
   margin: 32px 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .MeetProfessional {
     flex-direction: column;
   }
 
   .MeetProfessional-text-wrapper {
     width: 80%;
+  }
+
+  .MeetProfessional-img-wrapper {
+    width: 90%;
   }
 }

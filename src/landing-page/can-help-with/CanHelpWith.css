@@ -47,13 +47,18 @@
   animation: openclose 5s linear infinite;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .CanHelpWith {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .CanHelpWith-text-wrapper {
     width: 80%;
+  }
+
+  .CanHelpWith-img-wrapper {
+    width: 95%;
+
   }
 }
 

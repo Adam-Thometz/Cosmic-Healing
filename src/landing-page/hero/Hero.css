@@ -7,6 +7,10 @@
   margin-bottom: var(--margin);
 }
 
+.Hero .Link {
+  margin: 24px 0;
+}
+
 .Hero-img-wrapper {
   width: 30%;
 }
@@ -42,10 +46,26 @@
 }
 
 .Hero-link-wrapper .Link {
-  width: 30%;
+  width: 20%;
 }
 
 .Hero-link-wrapper small {
   font-family: Nuckle;
-  margin-left: 24px;
+  font-weight: 100;
+  width: 70%;
+}
+
+@media (max-width: 900px) {
+  .Hero-img-wrapper {
+    display: none;
+  }
+
+  .Hero-text-wrapper {
+    width: 95%;
+  }
+
+  .Hero-link-wrapper {
+    flex-direction: column;
+    align-items: start;
+  }
 }

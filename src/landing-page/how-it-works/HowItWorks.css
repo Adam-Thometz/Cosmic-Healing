@@ -18,11 +18,16 @@
 .HowItWorks-step::marker {
   font-size: 36px;
   font-family: Nimbus;
+  font-weight: 600;
   white-space: pre-line;
 }
 
 .HowItWorks-step h3, .HowItWorks-step p {
   margin-left: 32px;
+}
+
+.HowItWorks-step p {
+  font-family: Nuckle;
 }
 
 .HowItWorks-img-wrapper {
@@ -37,8 +42,30 @@
   margin: 0 84px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .HowItWorks {
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+
+  .HowItWorks-text-wrapper {
+    width: 90%;
+  }
+
+  .HowItWorks-img-wrapper {
+    margin-top: 8px;
+    width: 100%;
+  }
+  
+  .HowItWorks-img-wrapper img {
+    height: 500px;
+  }
+
+  .HowItWorks-step {
+    margin: 0;
+  }
+
+  .HowItWorks-step h3, .HowItWorks-step p {
+    margin: 0;
+    display: block;
   }
 }
