@@ -8,9 +8,9 @@ import SmallCaption from '../../_components/small-caption/SmallCaption';
 
 import methods from './methods';
 
-const Methodology = () => {
+const Methodology = ({ style }) => {
   return (
-    <section className='Methodology'>
+    <section className='Methodology' style={style}>
       <SmallCaption text="HOW I CAN HELP.." />
       <SectionHeader text="My Process" />
       <div className='Methodology-methods'>
