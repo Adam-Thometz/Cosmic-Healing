@@ -140,6 +140,7 @@ exports[`LandingPage component matches the snapshot 1`] = `
     </section>
     <section
       class="Methodology"
+      style="--i: 4;"
     >
       <small
         class="SmallCaption"
