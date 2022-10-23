@@ -2,14 +2,14 @@
   background-color: white;
   border-radius: 10px;
   text-align: left;
-  padding: 2% 3%;
+  padding: 2% 25px;
   height: 360px;
-  width: 288px;
-  margin: 10px auto;
+  width: 250px;
+  margin: 10px;
   font-size: 18px;
   font-family: Nuckle;
   font-weight: 550;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 0px 4px 35px 0px #782DCA26;
@@ -19,4 +19,10 @@
   width: 85%;
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .ServiceCard {
+    min-width: 250px;
+  }
 }

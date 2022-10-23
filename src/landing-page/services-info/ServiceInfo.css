@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: top;
   margin: var(--margin) 0;
+  width: 100%;
   animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
@@ -18,13 +19,21 @@
 
 .ServiceInfo-options {
   display: flex;
+  justify-content: space-between;
   width: 80%;
   margin: 0 auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
   .ServiceInfo-options {
-    width: 95%;
-    overflow: scroll;
+    width: 90%;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .ServiceInfo-options {
+    width: 100%;
+    overflow: auto;
   }
 }

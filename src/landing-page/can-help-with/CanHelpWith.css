@@ -24,12 +24,14 @@
   height: var(--height);
   list-style: none;
   margin-left: -40px;
-  line-height: var(--height);
   overflow: hidden;
 }
 
 .CanHelpWith-slider-text {
   color: #E35662;
+  line-height: var(--height);
+  font-family: Nimbus;
+  font-weight: 800;
   font-size: calc((var(--height) / 3) * 2);
   margin: 0;
   position: relative;
@@ -51,14 +53,20 @@
   .CanHelpWith {
     flex-direction: column-reverse;
   }
-
+  
   .CanHelpWith-text-wrapper {
     width: 80%;
   }
-
+  
   .CanHelpWith-img-wrapper {
     width: 95%;
+    
+  }
+}
 
+@media (max-width: 400px) {
+  .CanHelpWith-slider-text {
+    font-size: calc((var(--height) / 3) * 2 - 8px);
   }
 }
 
