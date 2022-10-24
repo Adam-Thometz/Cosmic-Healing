@@ -5,7 +5,7 @@ exports[`LandingPage component matches the snapshot 1`] = `
   <main
     class="LandingPage"
   >
-    <header
+    <section
       class="Hero"
       style="--i: 1;"
     >
@@ -39,7 +39,7 @@ exports[`LandingPage component matches the snapshot 1`] = `
           src="miriam.png"
         />
       </aside>
-    </header>
+    </section>
     <section
       class="MeetProfessional"
       style="--i: 2;"

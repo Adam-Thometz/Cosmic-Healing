@@ -16,11 +16,6 @@ exports[`Link component matches the snapshot for secondary link 1`] = `
     class="Link secondary"
   >
     Hello, I'm a regular link
-    <img
-      alt=""
-      class="Link-arrow"
-      src="arrow.png"
-    />
   </a>
 </DocumentFragment>
 `;

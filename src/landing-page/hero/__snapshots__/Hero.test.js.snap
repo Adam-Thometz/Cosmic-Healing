@@ -2,7 +2,7 @@
 
 exports[`Hero component matches the snapshot 1`] = `
 <DocumentFragment>
-  <header
+  <section
     class="Hero"
   >
     <section
@@ -35,6 +35,6 @@ exports[`Hero component matches the snapshot 1`] = `
         src="miriam.png"
       />
     </aside>
-  </header>
+  </section>
 </DocumentFragment>
 `;
