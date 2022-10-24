@@ -32,3 +32,9 @@
 .primary:hover{
   background-color: #8F59CB;
 }
+
+.secondary:hover {
+  background-color: #FFC5A21E;
+  border-color: #D87B41;
+  filter: invert(47%) sepia(71%) saturate(466%) hue-rotate(339deg) brightness(102%) contrast(86%);
+}

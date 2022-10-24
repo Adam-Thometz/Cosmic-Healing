@@ -10,7 +10,7 @@ const ServiceCard = ({ service, description, link }) => {
     <div className='ServiceCard'>
       <SectionHeader small text={service} />
       <article className='ServiceCard-description'>{description}</article>
-      <Link to={link} >Learn more</Link>
+      <Link secondary to={link} >Learn more</Link>
     </div>
   );
 };

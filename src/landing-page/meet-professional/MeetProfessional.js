@@ -20,7 +20,7 @@ const MeetProfessional = ({ style }) => {
         <SmallCaption text="MEET THE LICENSED PROFESSIONAL" />
         <SectionHeader text="Hello, my name is Miriam!" />
         <article>I am a licensed social worker and spiritual life coach who strives to help you uncover your purpose. I use a critically conscious lens, heart-centered approach and astrology charts to align with your higher authentic self. Let's go on this journey together as we sort through and make sense of each puzzle piece to form a full picture.</article>
-        <Link>Read more</Link>
+        <Link secondary>Read more</Link>
       </aside>
     </section>
   );
