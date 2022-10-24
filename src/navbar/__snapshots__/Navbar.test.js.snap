@@ -2,41 +2,43 @@
 
 exports[`Navbar component matches the snapshot 1`] = `
 <DocumentFragment>
-  <nav
+  <header
     class="Navbar"
   >
     <img
       alt=""
       src=""
     />
-    <section
-      class="Navbar-links"
-    >
-      <a
-        aria-current="page"
-        class="active"
-        href="/"
+    <nav>
+      <section
+        class="Navbar-links"
       >
-        Home
-      </a>
+        <a
+          aria-current="page"
+          class="active"
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          class=""
+          href="/about-me"
+        >
+          About Me
+        </a>
+        <a
+          class=""
+          href="/services"
+        >
+          Services
+        </a>
+      </section>
       <a
-        class=""
-        href="/about-me"
+        class="Link primary"
       >
-        About Me
+        Book a free session
       </a>
-      <a
-        class=""
-        href="/services"
-      >
-        Services
-      </a>
-    </section>
-    <a
-      class="Link primary"
-    >
-      Book a free session
-    </a>
-  </nav>
+    </nav>
+  </header>
 </DocumentFragment>
 `;
