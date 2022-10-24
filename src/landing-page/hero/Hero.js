@@ -8,7 +8,7 @@ import miriam from '../../_media/miriam.png';
 
 const Hero = ({ style }) => {
   return (
-    <header className='Hero' style={style}>
+    <section className='Hero' style={style}>
       <section className='Hero-text-wrapper'>
         <h1>Break the cycle, become a better you</h1>
         <p>Start your journey today to be on your path to become the person you were always designed to be.</p>
@@ -20,7 +20,7 @@ const Hero = ({ style }) => {
       <aside className='Hero-img-wrapper'>
         <img src={miriam} alt='' />
       </aside>
-    </header>
+    </section>
   );
 };
 
