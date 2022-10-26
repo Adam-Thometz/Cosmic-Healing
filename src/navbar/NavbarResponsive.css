@@ -1,0 +1,47 @@
+.NavbarResponsive {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 16px auto;
+  position: relative;
+}
+
+.NavbarResponsive-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.NavbarResponsive-nav img {
+  width: 18px;
+  height: 12px;
+}
+
+.NavbarResponsive-links {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 8px;
+  background-color: white;
+  margin: 8px 0;
+  position: absolute;
+  top: 16px;
+  left: 0;
+  z-index: 5;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.NavbarResponsive-links a:not(a:last-child) {
+  padding: 12px 0;
+  color: #333333;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Nuckle;
+  font-weight: 700;
+  line-height: 16px;
+  border-bottom: 1px solid #CFC8D8;
+}
+
+.NavbarResponsive-links a.active {
+  color: #D87B41;
+}

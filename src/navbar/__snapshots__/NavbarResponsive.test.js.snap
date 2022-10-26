@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarResponsive component matches the snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="NavbarResponsive"
+  >
+    <nav
+      class="NavbarResponsive-nav"
+    >
+      <img
+        alt="Click for navigation"
+        src="hamburger.png"
+      />
+      <div
+        class="NavbarResponsive-links"
+        style="display: none;"
+      >
+        <a
+          aria-current="page"
+          class="active"
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          class=""
+          href="/about-me"
+        >
+          About Me
+        </a>
+        <a
+          class=""
+          href="/services"
+        >
+          Services
+        </a>
+        <a
+          class="Link primary"
+        >
+          Book a free session
+        </a>
+      </div>
+    </nav>
+    <img
+      alt=""
+      src=""
+    />
+  </header>
+</DocumentFragment>
+`;
