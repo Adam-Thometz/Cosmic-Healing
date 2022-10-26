@@ -12,52 +12,31 @@ exports[`Footer component matches the snapshot 1`] = `
         class="SmallCaption"
         style="color: rgb(251, 173, 125);"
       >
-        COSMIC HEALING
+        VESTA HEALING
       </small>
       <a
-        href="#"
+        class="Link tertiary"
+        href="/"
       >
         Home
       </a>
       <a
-        href="#"
+        class="Link tertiary"
+        href="/about-me"
       >
         About Me
       </a>
       <a
-        href="#"
+        class="Link tertiary"
+        href="/services"
       >
         Services
       </a>
       <a
-        href="#"
+        class="Link tertiary"
+        href="/services#faq"
       >
         FAQ
-      </a>
-    </section>
-    <section
-      class="Footer-menu"
-    >
-      <small
-        class="SmallCaption"
-        style="color: rgb(251, 173, 125);"
-      >
-        COMMUNITY
-      </small>
-      <a
-        href="#"
-      >
-        Webinars
-      </a>
-      <a
-        href="#"
-      >
-        Resources
-      </a>
-      <a
-        href="#"
-      >
-        Partnership
       </a>
     </section>
     <section
@@ -70,19 +49,10 @@ exports[`Footer component matches the snapshot 1`] = `
         COMPANY
       </small>
       <a
-        href="#"
+        class="Link tertiary"
+        href="/"
       >
-        Blog
-      </a>
-      <a
-        href="#"
-      >
-        Careers
-      </a>
-      <a
-        href="#"
-      >
-        Contact us
+        Contact Us
       </a>
     </section>
   </footer>
