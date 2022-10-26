@@ -80,94 +80,74 @@ exports[`Services component matches the snapshot 1`] = `
       >
         Frequently Asked Questions
       </h2>
-      <details
+      <div
         class="Question"
       >
-        <summary
+        <div
           class="Question-question-wrapper"
         >
-          <span
-            class="Question-question"
+          <h3
+            class="SectionHeader"
           >
-            <h3
-              class="SectionHeader"
-            >
-              How much does a session cost?
-            </h3>
-          </span>
-        </summary>
-        <p
-          class="Question-answer"
-        >
-          Interaction design is the practice of designing interactive digital products, environments, systems, and services.
-        </p>
-      </details>
-      <details
+            How much does a session cost?
+          </h3>
+          <img
+            alt="Pick to expand question"
+            src="expanded.png"
+          />
+        </div>
+      </div>
+      <div
         class="Question"
       >
-        <summary
+        <div
           class="Question-question-wrapper"
         >
-          <span
-            class="Question-question"
+          <h3
+            class="SectionHeader"
           >
-            <h3
-              class="SectionHeader"
-            >
-              Where are sessions held?
-            </h3>
-          </span>
-        </summary>
-        <p
-          class="Question-answer"
-        >
-          Interaction design is the practice of designing interactive digital products, environments, systems, and services.
-        </p>
-      </details>
-      <details
+            Where are sessions held?
+          </h3>
+          <img
+            alt="Pick to expand question"
+            src="expanded.png"
+          />
+        </div>
+      </div>
+      <div
         class="Question"
       >
-        <summary
+        <div
           class="Question-question-wrapper"
         >
-          <span
-            class="Question-question"
+          <h3
+            class="SectionHeader"
           >
-            <h3
-              class="SectionHeader"
-            >
-              What is your deposit policy?
-            </h3>
-          </span>
-        </summary>
-        <p
-          class="Question-answer"
-        >
-          Interaction design is the practice of designing interactive digital products, environments, systems, and services.
-        </p>
-      </details>
-      <details
+            What is your deposit policy?
+          </h3>
+          <img
+            alt="Pick to expand question"
+            src="expanded.png"
+          />
+        </div>
+      </div>
+      <div
         class="Question"
       >
-        <summary
+        <div
           class="Question-question-wrapper"
         >
-          <span
-            class="Question-question"
+          <h3
+            class="SectionHeader"
           >
-            <h3
-              class="SectionHeader"
-            >
-              What insurance do you accept?
-            </h3>
-          </span>
-        </summary>
-        <p
-          class="Question-answer"
-        >
-          Interaction design is the practice of designing interactive digital products, environments, systems, and services.
-        </p>
-      </details>
+            What insurance do you accept?
+          </h3>
+          <img
+            alt="Pick to expand question"
+            src="expanded.png"
+          />
+        </div>
+      </div>
     </section>
   </main>
 </DocumentFragment>
