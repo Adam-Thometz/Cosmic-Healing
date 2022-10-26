@@ -9,7 +9,7 @@ import Question from './question/Question';
 import questionsAnswers from './questionsAnswers';
 
 const FAQ = () => {
-  const faq = questionsAnswers.map(({ question, answer }) => (
+  const faq = questionsAnswers.map(({ question, answer }, i) => (
     <Question question={question} answer={answer} />
   ));
   
