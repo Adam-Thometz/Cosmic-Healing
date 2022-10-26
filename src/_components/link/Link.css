@@ -38,3 +38,16 @@
   border-color: #D87B41;
   filter: invert(47%) sepia(71%) saturate(466%) hue-rotate(339deg) brightness(102%) contrast(86%);
 }
+
+.tertiary {
+  text-decoration: none;
+  color: white;
+  font-family: Nuckle;
+  font-weight: 600;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.tertiary:hover {
+  color: #D87B41;
+}

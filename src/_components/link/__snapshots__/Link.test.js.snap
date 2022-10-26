@@ -13,7 +13,7 @@ exports[`Link component matches the snapshot for primary link 1`] = `
 exports[`Link component matches the snapshot for secondary link 1`] = `
 <DocumentFragment>
   <a
-    class="Link secondary"
+    class="Link tertiary"
   >
     Hello, I'm a regular link
   </a>
