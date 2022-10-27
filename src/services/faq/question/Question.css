@@ -31,23 +31,24 @@
   width: 75%;
   max-height: 0;
   display: none;
+  overflow: hidden;
+  animation: close-answer 0.5s ease-in-out;
 }
 
-.showing {
+.Question-answer-showing {
   max-height: 1000px;
   display: block;
-  animation: open-answer 0.5s ease-in-out both;
+  animation: open-answer 0.5s ease-in-out;
 }
 
-/* @keyframes close-answer {
+@keyframes close-answer {
   from {
     max-height: 1000px;
   }
   to {
     max-height: 0;
-    display: none;
   }
-} */
+}
 
 @keyframes open-answer {
   from {
@@ -55,7 +56,6 @@
   }
   to {
     max-height: 1000px;
-    display: block;
   }
 }
 

@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutMe component matches the snapshot 1`] = `
+<DocumentFragment>
+  <main
+    class="AboutMe"
+  >
+    <div
+      class="AboutMe-img-wrapper"
+    >
+      <img
+        alt=""
+        src="miriam.png"
+      />
+    </div>
+    <small
+      class="SmallCaption"
+      style="color: black;"
+    >
+      Meet the Licenced Professional
+    </small>
+    <h2
+      class="SectionHeader"
+    >
+      Hello, my name is Miriam!
+    </h2>
+    <section
+      class="AboutMe-about"
+    >
+      <aside
+        class="AboutMe-about-img"
+      >
+        <img
+          alt=""
+          src="hand-puzzle1.png"
+        />
+      </aside>
+      <article
+        class="AboutMe-about-text"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum luctus nisl tortor eu nec malesuada varius vestibulum vel. Rutrum leo elementum, in a nunc gravida. Sit cursus semper id massa a vitae ut lectus. Hac tortor ut pellentesque rhoncus pulvinar integer ipsum. In lorem amet sed arcu quis lacinia sagittis viverra parturient.
+        <br />
+        <br />
+        Placerat dictum montes, sociis tristique enim, sapien nisl dui faucibus. Porttitor faucibus nisi, urna amet, morbi ultrices erat orci nibh. Venenatis, cursus sit sed cursus eu id sit. Sagittis aliquet sit odio vestibulum diam venenatis sed. Turpis penatibus nunc ornare vel aliquam mattis volutpat fermentum risus. Egestas gravida feugiat tellus aliquet turpis pellentesque id pellentesque. Vel dignissim faucibus orci, et magnis in pharetra aenean. Tempus massa et urna, sagittis lacus, sit. Suspendisse mauris, leo ornare tellus commodo vitae.
+        <br />
+        <br />
+        Miriam Nkrumah has trained and worked in various settings, including schools, medical centers and hospitals.
+      </article>
+    </section>
+    <blockquote
+      class="AboutMe-quote"
+    >
+      “I offer sessions designed to help you shift subconscious imprinting, uncover your authentic self, align with your purpose, and live in the present moment.”
+    </blockquote>
+    <section
+      class="AboutMe-specialties"
+    >
+      <div
+        class="AboutMe-specialties-wrapper"
+      >
+        <small
+          class="SmallCaption"
+          style="color: black;"
+        >
+          Journey Within
+        </small>
+        <h2
+          class="SectionHeader"
+        >
+          Therapy Specialty
+        </h2>
+        <ul
+          class="AboutMe-specialties-list"
+        >
+          <li>
+            Depression
+          </li>
+          <li>
+            Grief and Loss
+          </li>
+          <li>
+            Life Transitions
+          </li>
+          <li>
+            Personal Growth and Self-Esteem
+          </li>
+          <li>
+            General relationship challenges (family, friends, co-workers)
+          </li>
+        </ul>
+        <a
+          class="Link primary"
+        >
+          Book a free session
+        </a>
+      </div>
+      <aside
+        class="AboutMe-specialties-img"
+      >
+        <img
+          alt=""
+          src="hand-puzzle2.png"
+        />
+      </aside>
+    </section>
+  </main>
+</DocumentFragment>
+`;
