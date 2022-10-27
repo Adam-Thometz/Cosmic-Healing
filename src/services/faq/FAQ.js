@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './FAQ.css';
 
@@ -9,12 +9,22 @@ import Question from './question/Question';
 import questionsAnswers from './questionsAnswers';
 
 const FAQ = () => {
-  const faq = questionsAnswers.map(({ question, answer }, i) => (
-    <Question question={question} answer={answer} />
-  ));
+  const [currQuestion, setCurrQuestion] = useState(null);
+  const faq = questionsAnswers.map(({ question, answer }, i) => {
+    const handleShowing = () => currQuestion === i 
+      ? setCurrQuestion(null)
+      : setCurrQuestion(i);
+    return <Question
+      id={i}
+      question={question}
+      answer={answer}
+      isShowing={i === currQuestion}
+      handleShowing={handleShowing}
+    />;
+  });
   
   return (
-    <section className='FAQ'>
+    <section className='FAQ' id='faq'>
       <SmallCaption text="FAQ" />
       <SectionHeader text="Frequently Asked Questions" />
       {faq}
