@@ -2,8 +2,6 @@
   display: flex;
   justify-content: space-evenly;
   padding: 5% 3%;
-  font-family: Nuckle;
-  font-weight: 600;
 }
 
 .reverse {

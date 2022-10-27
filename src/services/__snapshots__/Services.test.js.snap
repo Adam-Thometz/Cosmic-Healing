@@ -124,7 +124,7 @@ exports[`Services component matches the snapshot 1`] = `
         <p
           class="Question-answer"
         >
-          Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+          Sessions are held on Zoom from the comfort of your own home
         </p>
       </div>
       <div
@@ -170,7 +170,39 @@ exports[`Services component matches the snapshot 1`] = `
         <p
           class="Question-answer"
         >
-          Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+          UnitedHealthcare
+          <br />
+          Oxford Health Plans
+          <br />
+          Cigna
+          <br />
+          Aetna
+          <br />
+          Empire Blue Cross Blue Shield
+          <br />
+          UMR
+          <br />
+          Oscar
+          <br />
+          UHC Student Resources
+          <br />
+          AllSavers UHC
+          <br />
+          Harvard Pilgrim
+          <br />
+          Meritain
+          <br />
+          Nippon
+          <br />
+          United Healthcare Shared Services
+          <br />
+          Allied Benefit Systems - Aetna
+          <br />
+          Surest (Formerly Bind)
+          <br />
+          Health Plans Inc.
+          <br />
+          UnitedHealthcare Global
         </p>
       </div>
     </section>
