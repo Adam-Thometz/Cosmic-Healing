@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-evenly;
   padding: 5% 3%;
+  font-family: Nuckle;
+  font-weight: 600;
 }
 
 .reverse {
@@ -30,12 +32,12 @@
 @media (max-width: 900px) {
   .ServiceDescription, .reverse {
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     align-items: center;
   }
 
   .ServiceDescription-description {
-    width: 90%;
+    width: 95%;
   }
 }

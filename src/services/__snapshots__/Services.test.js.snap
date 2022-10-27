@@ -32,7 +32,7 @@ exports[`Services component matches the snapshot 1`] = `
           Individual sessions
         </h3>
         <article>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Work one-on-one with a trained professional to uncover parts of yourself and heal from trauma. Sessions are confidential and personalized to your unique goals. This approach is recommended if you prefer a more intimate therapist-client relationship.
         </article>
         <a
           class="Link primary"
@@ -57,7 +57,7 @@ exports[`Services component matches the snapshot 1`] = `
           Group sessions
         </h3>
         <article>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          A group setting can help you gain clarity and perspective on your own life as you begin to cultivate relations with others. Members go through a vetting process and are placed based on their unique experience and goals as it relates to the group’s overall dynamnic.
         </article>
         <a
           class="Link primary"
