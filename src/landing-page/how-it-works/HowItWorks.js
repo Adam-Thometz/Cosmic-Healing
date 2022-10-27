@@ -25,7 +25,7 @@ const HowItWorks = ({ style }) => {
           </li>
           <li className='HowItWorks-step'>
             <SectionHeader small text="Begin" />
-            <p>Congratulations on taking the first step towards a rewarding experience. </p>
+            <p>Congratulations on taking the first step towards a rewarding and transformative experience. </p>
           </li>
         </ol>
         <Link primary>Get Started</Link>

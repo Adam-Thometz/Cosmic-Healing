@@ -34,7 +34,7 @@ exports[`ServiceInfo component matches the snapshot 1`] = `
         <article
           class="ServiceCard-description"
         >
-          One-one sessions are individualized, evidence-based therapeutic services for ages ___ and up. Services include assessment, goal setting  and treatment palnning.
+          One-to-one sessions are individualized, evidence-based therapeutic services for ages 18 and up. Services include assessment, goal setting  and treatment palnning.
         </article>
         <a
           class="Link secondary"

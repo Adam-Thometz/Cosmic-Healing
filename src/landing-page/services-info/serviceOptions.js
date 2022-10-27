@@ -1,7 +1,7 @@
 const options = [
   {
     service: "Individual Sessions",
-    description: "One-one sessions are individualized, evidence-based therapeutic services for ages ___ and up. Services include assessment, goal setting  and treatment palnning.",
+    description: "One-to-one sessions are individualized, evidence-based therapeutic services for ages 18 and up. Services include assessment, goal setting  and treatment palnning.",
     link: null
   },
   {

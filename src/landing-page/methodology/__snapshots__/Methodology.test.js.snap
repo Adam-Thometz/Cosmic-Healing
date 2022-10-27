@@ -31,7 +31,7 @@ exports[`Methodology component matches the snapshot 1`] = `
             Dreamwork
           </h3>
           <p>
-            Decode symbols within your dreams to uncover subconscious messages
+            Decode symbols within your  dreams to uncover hidden messages
           </p>
         </figcaption>
       </figure>
@@ -47,7 +47,7 @@ exports[`Methodology component matches the snapshot 1`] = `
             Shadow Work
           </h3>
           <p>
-            Integrate the repressed and hidden parts of you
+            Confront the darker side of your personality and integrate the repressed self
           </p>
         </figcaption>
       </figure>
@@ -95,7 +95,7 @@ exports[`Methodology component matches the snapshot 1`] = `
             Cognitive Behavioral
           </h3>
           <p>
-            Release negative patterns and limiting beliefs
+            Break down negative patterns and limiting beliefs
           </p>
         </figcaption>
       </figure>

@@ -9,12 +9,12 @@ const methods = [
   {
     name: "Dreamwork",
     img: dreamwork,
-    description: "Decode symbols within your dreams to uncover subconscious messages"
+    description: "Decode symbols within your  dreams to uncover hidden messages"
   },
   {
     name: "Shadow Work",
     img: shadowWork,
-    description: "Integrate the repressed and hidden parts of you"
+    description: "Confront the darker side of your personality and integrate the repressed self"
   },
   {
     name: "Emotional Processing",
@@ -29,7 +29,7 @@ const methods = [
   {
     name: "Cognitive Behavioral",
     img: cognitiveBehavioral,
-    description: "Release negative patterns and limiting beliefs"
+    description: "Break down negative patterns and limiting beliefs"
   },
   {
     name: "Person Centered",
