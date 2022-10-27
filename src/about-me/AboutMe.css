@@ -1,0 +1,115 @@
+.AboutMe {
+  position: relative;
+  font-family: Nuckle;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.AboutMe-img-wrapper {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.AboutMe-img-wrapper img {
+  width: 100%;
+}
+
+.AboutMe-about {
+  display: flex;
+  margin: var(--margin) auto;
+}
+
+.AboutMe-about-img {
+  width: 40%;
+}
+
+.AboutMe-about-img img {
+  width: 100%;
+}
+
+.AboutMe-about-text {
+  width: 60%;
+  text-align: left;
+  margin: 0 150px;
+}
+
+.AboutMe-quote {
+  color: #828282;
+  font-family: Nimbus;
+  font-size: 36px;
+  width: 70%;
+  margin: var(--margin) auto;
+}
+
+.AboutMe-specialties {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--margin) 0;
+}
+
+.AboutMe-specialties-wrapper {
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 5%;
+}
+
+.AboutMe-specialties-list {
+  margin: 20px;
+  padding: 0;
+  padding-left: -16px;
+}
+
+.AboutMe-specialties li {
+  padding-left: 40px;
+  margin: 4px 0;
+}
+
+.AboutMe-specialties li::marker {
+  content: url(../_media/about-me/star-bullet.png);
+}
+
+.AboutMe-specialties-img {
+  width: 40%;
+}
+
+.AboutMe-specialties-img img {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .AboutMe-about {
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .AboutMe-about-img {
+    width: 80%;
+    transform: translateX(-40%);
+  }
+
+  .AboutMe-about-text {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .AboutMe-quote {
+    width: 95%;
+  }
+
+  .AboutMe-specialties {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 95%;
+  }
+
+  .AboutMe-specialties-wrapper {
+    width: 95%;
+  }
+
+  .AboutMe-specialties-img {
+    width: 80%;
+    margin: var(--margin) 0;
+  }
+}
