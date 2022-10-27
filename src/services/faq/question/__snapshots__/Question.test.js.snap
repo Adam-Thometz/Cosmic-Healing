@@ -2,27 +2,22 @@
 
 exports[`Question component matches the snapshot 1`] = `
 <DocumentFragment>
-  <details
+  <div
     class="Question"
   >
-    <summary
+    <div
       class="Question-question-wrapper"
     >
-      <span
-        class="Question-question"
+      <h3
+        class="SectionHeader"
       >
-        <h3
-          class="SectionHeader"
-        >
-          What did the irritated test say?
-        </h3>
-      </span>
-    </summary>
-    <p
-      class="Question-answer"
-    >
-      Don't test me
-    </p>
-  </details>
+        What did the irritated test say?
+      </h3>
+      <img
+        alt="Pick to expand question"
+        src="expanded.png"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;
