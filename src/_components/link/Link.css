@@ -1,9 +1,10 @@
 .Link {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   cursor: pointer;
   border-radius: 4px;
+  font-family: Nuckle;
 }
 
 .Link-arrow {
@@ -42,7 +43,6 @@
 .tertiary {
   text-decoration: none;
   color: white;
-  font-family: Nuckle;
   font-weight: 600;
   margin: 8px 0;
   text-align: left;
