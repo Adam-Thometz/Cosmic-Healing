@@ -62,7 +62,7 @@ exports[`Services component matches the snapshot 1`] = `
         <a
           class="Link primary"
         >
-          Book a free session
+          Join a group
         </a>
       </aside>
     </section>

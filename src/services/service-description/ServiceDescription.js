@@ -12,7 +12,7 @@ const ServiceDescription = ({ name, description, image, i }) => {
       <aside className='ServiceDescription-description'>
         <SectionHeader small text={name} />
         <article>{description}</article>
-        <Link primary>Book a free session</Link>
+        <Link primary>{name === 'Group sessions' ? 'Join a group' : 'Book a free session'}</Link>
       </aside>
     </section>
   );
