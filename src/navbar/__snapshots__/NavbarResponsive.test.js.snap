@@ -13,33 +13,40 @@ exports[`NavbarResponsive component matches the snapshot 1`] = `
         src="hamburger.png"
       />
       <div
-        class="NavbarResponsive-links"
-        style="display: none;"
+        class="NavbarResponsive-link-wrapper hidden"
       >
-        <a
-          aria-current="page"
-          class="active"
-          href="/"
+        <div
+          class="NavbarResponsive-links hidden"
         >
-          Home
-        </a>
-        <a
-          class=""
-          href="/about-me"
-        >
-          About Me
-        </a>
-        <a
-          class=""
-          href="/services"
-        >
-          Services
-        </a>
-        <a
-          class="Link primary"
-        >
-          Book a free session
-        </a>
+          <section
+            class="NavbarResponsive-main-links"
+          >
+            <a
+              aria-current="page"
+              class="active"
+              href="/"
+            >
+              Home
+            </a>
+            <a
+              class=""
+              href="/about-me"
+            >
+              About Me
+            </a>
+            <a
+              class=""
+              href="/services"
+            >
+              Services
+            </a>
+          </section>
+          <a
+            class="Link primary"
+          >
+            Book a free session
+          </a>
+        </div>
       </div>
     </nav>
     <img
