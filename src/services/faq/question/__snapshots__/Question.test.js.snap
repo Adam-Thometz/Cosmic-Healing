@@ -18,6 +18,11 @@ exports[`Question component matches the snapshot 1`] = `
         src="expanded.png"
       />
     </div>
+    <p
+      class="Question-answer"
+    >
+      Don't test me
+    </p>
   </div>
 </DocumentFragment>
 `;

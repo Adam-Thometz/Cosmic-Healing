@@ -4,6 +4,7 @@ exports[`FAQ component matches the snapshot 1`] = `
 <DocumentFragment>
   <section
     class="FAQ"
+    id="faq"
   >
     <small
       class="SmallCaption"
@@ -18,6 +19,7 @@ exports[`FAQ component matches the snapshot 1`] = `
     </h2>
     <div
       class="Question"
+      id="0"
     >
       <div
         class="Question-question-wrapper"
@@ -32,9 +34,15 @@ exports[`FAQ component matches the snapshot 1`] = `
           src="expanded.png"
         />
       </div>
+      <p
+        class="Question-answer"
+      >
+        Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+      </p>
     </div>
     <div
       class="Question"
+      id="1"
     >
       <div
         class="Question-question-wrapper"
@@ -49,9 +57,15 @@ exports[`FAQ component matches the snapshot 1`] = `
           src="expanded.png"
         />
       </div>
+      <p
+        class="Question-answer"
+      >
+        Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+      </p>
     </div>
     <div
       class="Question"
+      id="2"
     >
       <div
         class="Question-question-wrapper"
@@ -66,9 +80,15 @@ exports[`FAQ component matches the snapshot 1`] = `
           src="expanded.png"
         />
       </div>
+      <p
+        class="Question-answer"
+      >
+        Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+      </p>
     </div>
     <div
       class="Question"
+      id="3"
     >
       <div
         class="Question-question-wrapper"
@@ -83,6 +103,11 @@ exports[`FAQ component matches the snapshot 1`] = `
           src="expanded.png"
         />
       </div>
+      <p
+        class="Question-answer"
+      >
+        Interaction design is the practice of designing interactive digital products, environments, systems, and services.
+      </p>
     </div>
   </section>
 </DocumentFragment>
