@@ -14,7 +14,7 @@ const Question = ({ id, question, answer, isShowing, handleShowing }) => {
         <SectionHeader small text={question} />
         <img src={isShowing ? minus : plus} alt={`Pick to ${isShowing ? 'collapse' : 'expand'} question`} />
       </div>
-      <p className={`Question-answer${isShowing ? '-showing' : ''}`}>{answer}</p>
+      <p className={`Question-answer${isShowing ? ' showing' : ''}`}>{answer}</p>
     </div>
   );
 };
