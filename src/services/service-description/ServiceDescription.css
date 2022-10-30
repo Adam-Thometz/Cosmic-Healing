@@ -34,4 +34,14 @@
   .ServiceDescription-description {
     width: 95%;
   }
+
+  .ServiceDescription img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .ServiceDescription img {
+    width: 100vw;
+  }
 }
