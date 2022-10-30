@@ -44,7 +44,7 @@ const AboutMe = () => {
             <li>Personal Growth and Self-Esteem</li>
             <li>General relationship challenges (family, friends, co-workers)</li>
           </ul>
-          <Link primary>Book a free session</Link>
+          <Link primary ariaLabel='Click to book a free session'>Book a free session</Link>
         </div>
         <aside className='AboutMe-specialties-img'>
           <img src={hand2} alt='' />
