@@ -24,7 +24,9 @@ const NavbarResponsive = () => {
               <NavLink to='about-me' className={active}>About Me</NavLink>
               <NavLink to='services' className={active}>Services</NavLink>
             </section>
-            <Link primary>Book a free session</Link>
+            <section className='NavbarResponsive-cta'>
+              <Link primary ariaLabel='Click to book a free session'>Book a free session</Link>
+            </section>
           </div>
         </div>
       </nav>
