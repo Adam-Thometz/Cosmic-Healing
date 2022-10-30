@@ -19,9 +19,8 @@ const MeetProfessional = ({ style }) => {
         <img className='MeetProfessional-stars' src={stars} alt='' />
         <SmallCaption text="MEET THE LICENSED PROFESSIONAL" />
         <SectionHeader text="Hello, my name is Miriam!" />
-        <article>I offer sessions designed to help you shift subconscious imprinting, uncover your authentic self and align with your purpose. As a licensed social worker and spiritual life coach, I use a critically conscious lens and heart-centered approach to help cultivate inner peace and calm. Let’s go on this journey together as we sort through and make sense of each puzzle piece to form a full picture. 
-</article>
-        <Link secondary>Read more</Link>
+        <article>I offer sessions designed to help you shift subconscious imprinting, uncover your authentic self and align with your purpose. As a licensed social worker and spiritual life coach, I use a critically conscious lens and heart-centered approach to help cultivate inner peace and calm. Let’s go on this journey together as we sort through and make sense of each puzzle piece to form a full picture.</article>
+        <Link secondary ariaLabel='Click here to learn more about Miriam'>Read more</Link>
       </aside>
     </section>
   );

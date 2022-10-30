@@ -28,7 +28,7 @@ const HowItWorks = ({ style }) => {
             <p>Congratulations on taking the first step towards a rewarding and transformative experience. </p>
           </li>
         </ol>
-        <Link primary>Get Started</Link>
+        <Link primary ariaLabel='Click here to get started'>Get Started</Link>
       </aside>
       <aside className='HowItWorks-img-wrapper'>
         <img src={paperPlane} alt='' />

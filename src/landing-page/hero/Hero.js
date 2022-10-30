@@ -13,7 +13,7 @@ const Hero = ({ style }) => {
         <h1>Break the cycle, become a better you</h1>
         <p>Start your journey today to be on your path to become the person you were always designed to be.</p>
         <div className='Hero-link-wrapper'>
-          <Link primary>Browse services</Link>
+          <Link primary ariaLabel='Click here to browse services'>Browse services</Link>
           <small>Licensed clinician with over 6 years experience delivering results to over 100 clients</small>
         </div>
       </section>
