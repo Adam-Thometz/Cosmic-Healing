@@ -9,8 +9,9 @@ import minus from '../../../_media/services/collapsed.png';
 
 const Question = ({ id, question, answer, isShowing, handleShowing }) => { 
   const handleKeyPress = e => {
-    if (e.key === 'Enter' || e.key === 'Space') handleShowing();
-  } 
+    if (e.code === 'Enter' || e.code === 'Space') handleShowing();
+  };
+
   return (
     <div className='Question' id={id} onClick={handleShowing}>
       <div className='Question-question-wrapper'>
