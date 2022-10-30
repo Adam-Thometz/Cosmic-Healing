@@ -20,7 +20,8 @@ const Question = ({ id, question, answer, isShowing, handleShowing }) => {
           role='button'
           onKeyUp={handleKeyPress}
           src={isShowing ? minus : plus}
-          alt={`Pick to ${isShowing ? 'collapse' : 'expand'} question`} tabIndex={0} />
+          alt={`Pick to ${isShowing ? 'collapse' : 'expand'} question ${question}`} tabIndex={0}
+        />
       </div>
       <p className={`Question-answer${isShowing ? ' showing' : ''}`}>{answer}</p>
     </div>
