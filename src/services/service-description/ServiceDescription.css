@@ -1,7 +1,7 @@
 .ServiceDescription {
   display: flex;
   justify-content: space-evenly;
-  padding: 5% 3%;
+  padding: 5% 5px;
 }
 
 .reverse {
@@ -19,10 +19,6 @@
 
 @media (max-width: 900px) {
   .ServiceDescription-description {
-    width: 50%;
-  }
-
-  .ServiceDescription img {
     width: 50%;
   }
 }
