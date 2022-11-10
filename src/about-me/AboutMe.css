@@ -9,6 +9,11 @@
 .AboutMe-img-wrapper {
   width: 40%;
   margin: 0 auto;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
+}
+
+.AboutMe section:first-child {
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .AboutMe-img-wrapper img {
@@ -20,6 +25,7 @@
   align-items: center;
   width: 90%;
   margin: 0 auto;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .AboutMe-about-img {
@@ -43,6 +49,7 @@
   font-size: 36px;
   width: 70%;
   margin: var(--margin) auto;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .AboutMe-specialties {
@@ -50,6 +57,7 @@
   justify-content: space-between;
   align-items: center;
   margin: var(--margin) 0;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .AboutMe-specialties-wrapper {

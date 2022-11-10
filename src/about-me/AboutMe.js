@@ -13,12 +13,14 @@ import Link from '../_components/link/Link';
 const AboutMe = () => {
   return (
     <main className='AboutMe'>
-      <div className='AboutMe-img-wrapper'>
+      <div className='AboutMe-img-wrapper' style={{ '--i': 1 }} >
         <img src={miriam} alt='' />
       </div>
-      <SmallCaption text='Meet the Licenced Professional' />
-      <SectionHeader text='Hello, my name is Miriam!' />
-      <section className='AboutMe-about'>
+      <section style={{ '--i': 2 }}>
+        <SmallCaption text='Meet the Licenced Professional' />
+        <SectionHeader text='Hello, my name is Miriam!' />
+      </section>
+      <section className='AboutMe-about' style={{ '--i': 3 }}>
         <aside className='AboutMe-about-img'>
           <img src={hand1} alt='' />
         </aside>
@@ -32,8 +34,8 @@ const AboutMe = () => {
           Miriam Nkrumah has trained and worked in various settings, including schools, medical centers and hospitals.
         </article>
       </section>
-      <blockquote className='AboutMe-quote'>“I offer sessions designed to help you shift subconscious imprinting, uncover your authentic self, align with your purpose, and live in the present moment.”</blockquote>
-      <section className='AboutMe-specialties'>
+      <blockquote className='AboutMe-quote' style={{ '--i': 4 }}>“I offer sessions designed to help you shift subconscious imprinting, uncover your authentic self, align with your purpose, and live in the present moment.”</blockquote>
+      <section className='AboutMe-specialties' style={{ '--i': 5 }}>
         <div className='AboutMe-specialties-wrapper'>
           <SmallCaption text='Journey Within' />
           <SectionHeader text='Therapy Specialty' />
