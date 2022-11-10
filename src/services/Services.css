@@ -3,3 +3,7 @@
   font-family: Nuckle;
   font-weight: 600;
 }
+
+.Services section:first-child {
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
+}

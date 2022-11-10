@@ -8,7 +8,7 @@ import Question from './question/Question';
 
 import questionsAnswers from './questionsAnswers';
 
-const FAQ = () => {
+const FAQ = ({ style }) => {
   const [currQuestion, setCurrQuestion] = useState(null);
   const faq = questionsAnswers.map(({ question, answer }, i) => {
     const handleShowing = () => currQuestion === i 
@@ -24,7 +24,7 @@ const FAQ = () => {
   });
   
   return (
-    <section className='FAQ' id='faq'>
+    <section className='FAQ' id='faq' style={style}>
       <SmallCaption text="FAQ" />
       <SectionHeader text="Frequently Asked Questions" />
       {faq}

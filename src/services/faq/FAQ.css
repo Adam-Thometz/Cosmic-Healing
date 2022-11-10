@@ -1,3 +1,4 @@
 .FAQ {
   margin: var(--margin) 0;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   padding: 5% 5px;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .reverse {

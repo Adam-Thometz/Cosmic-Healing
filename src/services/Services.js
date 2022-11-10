@@ -16,6 +16,7 @@ const Services = () => {
     image
   }, i) => {
     return <ServiceDescription
+      style={{ "--i": i+2 }}
       name={name}
       description={description}
       image={image}
@@ -25,10 +26,12 @@ const Services = () => {
   
   return (
     <main className='Services'>
-      <SmallCaption text='DO WHAT IS BEST FOR YOU' />
-      <SectionHeader text="Choose your ideal environment" />
+      <section style={{ "--i": 1 }}>
+        <SmallCaption text='DO WHAT IS BEST FOR YOU' />
+        <SectionHeader text="Choose your ideal environment" />
+      </section>
       {services}
-      <FAQ />
+      <FAQ style={{ "--i": 4 }} />
     </main>
   );
 };

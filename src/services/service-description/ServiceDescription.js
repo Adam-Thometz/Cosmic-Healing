@@ -5,10 +5,10 @@ import './ServiceDescription.css';
 import Link from '../../_components/link/Link';
 import SectionHeader from '../../_components/section-header/SectionHeader';
 
-const ServiceDescription = ({ name, description, image, i }) => {
+const ServiceDescription = ({ name, description, image, i, style }) => {
   const label = name === 'Group sessions' ? 'Join a group' : 'Book a free session'
   return (
-    <section className={`ServiceDescription${i % 2 ? ' reverse' : ''}`}>
+    <section style={style} className={`ServiceDescription${i % 2 ? ' reverse' : ''}`}>
       <img src={image} alt='' />
       <aside className='ServiceDescription-description'>
         <SectionHeader small text={name} />
