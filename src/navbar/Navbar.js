@@ -5,12 +5,14 @@ import './Navbar.css';
 
 import Link from '../_components/link/Link';
 
+import logo from '../_media/logo-full.png';
+
 const Navbar = ({ style }) => {
   const active = ({ isActive }) => isActive ? 'active' : '';
   return (
-    <header className='Navbar' style={style}>
-      <img src='' alt='' />
-      <nav>
+    <header style={style}>
+      <nav className='Navbar'>
+        <img src={logo} alt='' />
         <section className='Navbar-links'>
           <NavLink to='/' className={active} end>Home</NavLink>
           <NavLink to='about-me' className={active}>About Me</NavLink>

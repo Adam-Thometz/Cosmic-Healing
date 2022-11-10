@@ -6,6 +6,7 @@ import './NavbarResponsive.css';
 import Link from '../_components/link/Link';
 
 import hamburger from '../_media/hamburger.png';
+import logo from '../_media/logo-flame.png';
 
 const NavbarResponsive = () => {
   const [isHidden, setIsHidden] = useState(true);
@@ -30,7 +31,7 @@ const NavbarResponsive = () => {
           </div>
         </div>
       </nav>
-      <img src={''} alt='' />
+      <img src={logo} alt='' />
     </header>
   );
 };

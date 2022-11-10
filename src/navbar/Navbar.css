@@ -11,6 +11,17 @@
   right: 5%;
 }
 
+.Navbar img {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  
+}
+
+.Navbar-links {
+  margin: 16px 0;
+}
+
 .Navbar-links a {
   color: #333333;
   text-decoration: none;
