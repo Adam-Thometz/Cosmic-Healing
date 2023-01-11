@@ -10,7 +10,7 @@ const Hero = ({ style }) => {
   return (
     <section className='Hero' style={style}>
       <section className='Hero-text-wrapper'>
-        <h1>Break the cycle, become a better you</h1>
+        <h1>Invest in yourself, become a better you </h1>
         <p>Start your journey today to be on your path to become the person you were always designed to be.</p>
         <div className='Hero-link-wrapper'>
           <Link primary ariaLabel='Click here to browse services'>Browse services</Link>
